@@ -1,0 +1,711 @@
+18:02:10.180 Got a kill message. Killing runner.
+12:23:16.592 Killing Gauge daemon. Parent process with pid 8472 has terminated.
+35 ## Vowel counts in single word
+18:02:28.537 * Vowels in English language are "aeiou".
+
+18:02:28.549 * The word "gauge" has "3" vowels.
+
+18:02:29.660 Plugin [Html Report] with pid [4872] has exited
+18:02:29.760 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:02:29.760 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:02:29.760 
+Total time taken: 363ms
+18:02:29.760 Updates are available. Run gauge --check-updates for more info.
+18:04:59.009 Got a kill message. Killing runner.
+18:05:03.011 Killing runner with PID:2868 forcefully
+18:05:37.761 Checking updates...
+18:05:43.109 [ValidationError] C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec:21: Step implementation not found => 'Given a book exists with an isbn of 0079132863'
+18:05:43.367 Plugin [Html Report] with pid [11820] has exited
+18:05:43.669 Specifications:	0 executed	0 passed	0 failed	1 skipped
+18:05:43.669 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+18:05:43.669 
+Total time taken: 154ms
+18:05:43.669 Updates are available. Run gauge --check-updates for more info.
+18:06:06.371 Checking updates...
+18:06:11.321 # Get book by ISBN Specification
+18:06:11.322 ## User calls web service to get a book by its ISBN
+18:06:11.323 * Given a book exists with an isbn of "0079132863"
+
+18:06:12.004 Plugin [Html Report] with pid [12212] has exited
+18:06:12.305 Specifications:	1 executed	1 passed	0 failed	0 skipped
+18:06:12.305 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18:06:12.305 
+Total time taken: 770ms
+18:06:12.305 Updates are available. Run gauge --check-updates for more info.
+12:04:50.656 Checking updates...
+12:05:05.034 # Get book by ISBN Specification
+12:05:05.035 C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec:16 No steps found in scenario
+12:05:05.338 Plugin [Html Report] with pid [13448] has exited
+12:05:05.639 Specifications:	0 executed	0 passed	0 failed	1 skipped
+12:05:05.639 Scenarios:	0 executed	0 passed	0 failed	1 skipped
+12:05:05.639 
+Total time taken: 10.055s
+12:05:05.639 Updates are available. Run gauge --check-updates for more info.
+12:11:12.988 No specifications found in C:/Users/osanda/IdeaProjects/APITestingDemo/specs/books.spec:19.
+12:11:13.922 Checking updates...
+12:11:16.992 Killing runner with PID:1280 forcefully
+12:11:46.622 No specifications found in C:/Users/osanda/IdeaProjects/APITestingDemo/specs/books.spec:19.
+12:11:47.270 Checking updates...
+12:11:50.626 Killing runner with PID:5324 forcefully
+12:20:44.740 No specifications found in C:/Users/osanda/IdeaProjects/APITestingDemo/specs/books.spec:19.
+12:20:45.394 Checking updates...
+12:20:48.742 Killing runner with PID:12220 forcefully
+12:26:59.164 Got a kill message. Killing runner.
+12:27:03.175 Killing runner with PID:1388 forcefully
+12:31:29.024 Checking updates...
+12:31:34.715 # Get book by ISBN Specification
+12:31:34.717 ## User calls web service to get a book by its ISBN
+12:31:34.720 * Given a book exists with an isbn of "0079132863"
+12:31:35.468 * When a user retrieves the book by isbn "0079132863"
+12:31:38.463 Plugin [Html Report] with pid [15324] has exited
+12:31:38.736 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:31:38.736 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:31:38.736 
+Total time taken: 3.994s
+12:31:38.736 Updates are available. Run gauge --check-updates for more info.
+12:50:48.175 Checking updates...
+12:50:52.849 # Get book by ISBN Specification
+12:50:52.849 ## User calls web service to get a book by its ISBN
+12:50:52.851 * Given a book exists with an isbn of "0079132863"
+12:50:53.488 * When a user retrieves the book by isbn "0079132863"
+12:50:56.454 * Then the status code is "200"
+12:50:56.621 Plugin [Html Report] with pid [7204] has exited
+12:50:56.823 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:50:56.823 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:50:56.823 
+Total time taken: 3.791s
+12:50:56.823 Updates are available. Run gauge --check-updates for more info.
+12:55:57.308 Checking updates...
+12:56:02.507 # Get book by ISBN Specification
+12:56:02.509 ## User calls web service to get a book by its ISBN
+12:56:02.512 * Given a book exists with an isbn of "0079132863"
+12:56:03.144 * When a user retrieves the book by isbn "0079132863"
+12:56:06.397 * Then the status code is "200"
+12:56:07.119 
+Failed Step: Then the status code is "200"
+12:56:07.119 Specification: specs\books.spec:15
+12:56:07.119 Error Message: java.lang.AssertionError: Same expected same:<200> was not:<200>
+12:56:07.119 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotSame(Assert.java:828)
+org.junit.Assert.assertSame(Assert.java:771)
+BookStepDefinitions.verify_status_code(BookStepDefinitions.java:49)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:56:07.224 Plugin [Html Report] with pid [8168] has exited
+12:56:07.627 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:56:07.627 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:56:07.627 
+Total time taken: 4.849s
+12:56:07.627 Updates are available. Run gauge --check-updates for more info.
+12:57:03.068 Checking updates...
+12:57:08.283 # Get book by ISBN Specification
+12:57:08.284 ## User calls web service to get a book by its ISBN
+12:57:08.285 * Given a book exists with an isbn of "0079132863"
+12:57:08.950 * When a user retrieves the book by isbn "0079132863"
+12:57:11.803 * Then the status code is "200"
+12:57:12.459 
+Failed Step: Then the status code is "200"
+12:57:12.459 Specification: specs\books.spec:15
+12:57:12.459 Error Message: java.lang.AssertionError: Same expected same:<200> was not:<200>
+12:57:12.459 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotSame(Assert.java:828)
+org.junit.Assert.assertSame(Assert.java:771)
+BookStepDefinitions.verify_status_code(BookStepDefinitions.java:49)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+12:57:12.563 Plugin [Html Report] with pid [14164] has exited
+12:57:12.965 Specifications:	1 executed	0 passed	1 failed	0 skipped
+12:57:12.965 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+12:57:12.965 
+Total time taken: 4.288s
+12:57:12.965 Updates are available. Run gauge --check-updates for more info.
+12:58:02.725 Checking updates...
+12:58:07.443 # Get book by ISBN Specification
+12:58:07.444 ## User calls web service to get a book by its ISBN
+12:58:07.445 * Given a book exists with an isbn of "0079132863"
+12:58:08.029 * When a user retrieves the book by isbn "0079132863"
+12:58:10.666 * Then the status code is "200"
+12:58:10.846 Plugin [Html Report] with pid [4160] has exited
+12:58:11.148 Specifications:	1 executed	1 passed	0 failed	0 skipped
+12:58:11.148 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+12:58:11.148 
+Total time taken: 3.394s
+12:58:11.148 Updates are available. Run gauge --check-updates for more info.
+13:02:59.830 Checking updates...
+13:03:04.777 # Get book by ISBN Specification
+13:03:04.778 ## User calls web service to get a book by its ISBN
+13:03:04.779 * Given a book exists with an isbn of "0079132863"
+13:03:05.392 * When a user retrieves the book by isbn "0079132863"
+13:03:08.008 * Then the status code is "200"
+13:03:08.507 
+Failed Step: Then the status code is "200"
+13:03:08.507 Specification: specs\books.spec:15
+13:03:08.507 Error Message: java.lang.AssertionError: expected:<Same> but was:<200>
+13:03:08.507 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.failNotEquals(Assert.java:834)
+org.junit.Assert.assertEquals(Assert.java:118)
+org.junit.Assert.assertEquals(Assert.java:144)
+BookStepDefinitions.verify_status_code(BookStepDefinitions.java:51)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:03:08.612 Plugin [Html Report] with pid [13992] has exited
+13:03:09.115 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:03:09.115 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:03:09.115 
+Total time taken: 3.836s
+13:03:09.115 Updates are available. Run gauge --check-updates for more info.
+13:07:31.043 Checking updates...
+13:07:36.164 # Get book by ISBN Specification
+13:07:36.164 ## User calls web service to get a book by its ISBN
+13:07:36.166 * Given a book exists with an isbn of "0079132863"
+13:07:36.852 * When a user retrieves the book by isbn "0079132863"
+13:07:40.044 * Then the status code is "200"
+13:07:40.151 Plugin [Html Report] with pid [8040] has exited
+13:07:40.351 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:07:40.351 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:07:40.351 
+Total time taken: 3.985s
+13:07:40.351 Updates are available. Run gauge --check-updates for more info.
+13:12:28.293 Checking updates...
+13:12:33.483 # Get book by ISBN Specification
+13:12:33.484 ## User calls web service to get a book by its ISBN
+13:12:33.485 * Given a book exists with an isbn of "0079132863"
+13:12:34.087 * When a user retrieves the book by isbn "0079132863"
+13:12:36.634 * Then the status code is "300"
+13:12:37.136 
+Failed Step: Then the status code is "300"
+13:12:37.138 Specification: specs\books.spec:15
+13:12:37.138 Error Message: java.lang.AssertionError: Expected and Actual Status Codes are not same
+13:12:37.138 Stacktrace: 
+org.junit.Assert.fail(Assert.java:88)
+org.junit.Assert.assertTrue(Assert.java:41)
+BookStepDefinitions.verify_status_code(BookStepDefinitions.java:51)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:12:37.244 Plugin [Html Report] with pid [8684] has exited
+13:12:37.647 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:12:37.647 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:12:37.647 
+Total time taken: 3.749s
+13:12:37.647 Updates are available. Run gauge --check-updates for more info.
+13:25:48.760 Checking updates...
+13:25:54.079 # Get book by ISBN Specification
+13:25:54.080 ## User calls web service to get a book by its ISBN
+13:25:54.081 * Given a book exists with an isbn of "0079132863"
+13:25:54.692 * When a user retrieves the book by isbn "0079132863"
+13:25:57.313 * Then the status code is "200"
+13:25:57.318 * Response contains the following "books"
+13:25:57.802 
+Failed Step: Response contains the following "books"
+13:25:57.802 Specification: specs\books.spec:16
+13:25:57.802 Error Message: java.lang.NullPointerException
+13:25:57.802 Stacktrace: 
+BookStepDefinitions.response_contains(BookStepDefinitions.java:69)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:25:57.906 Plugin [Html Report] with pid [11700] has exited
+13:25:58.307 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:25:58.307 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:25:58.307 
+Total time taken: 3.832s
+13:25:58.307 Updates are available. Run gauge --check-updates for more info.
+13:26:46.028 Checking updates...
+13:26:51.177 # Get book by ISBN Specification
+13:26:51.178 ## User calls web service to get a book by its ISBN
+13:26:51.180 * Given a book exists with an isbn of "0079132863"
+13:26:51.844 * When a user retrieves the book by isbn "0079132863"
+13:26:54.946 * Then the status code is "200"
+13:26:54.951 * Response contains the following "books"
+13:26:55.450 
+Failed Step: Response contains the following "books"
+13:26:55.450 Specification: specs\books.spec:16
+13:26:55.450 Error Message: java.lang.NullPointerException
+13:26:55.450 Stacktrace: 
+BookStepDefinitions.response_contains(BookStepDefinitions.java:69)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:32)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:127)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:83)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:64)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:40)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:34)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:86)
+com.thoughtworks.gauge.GaugeRuntime.main(GaugeRuntime.java:37)
+13:26:55.556 Plugin [Html Report] with pid [1664] has exited
+13:26:55.959 Specifications:	1 executed	0 passed	1 failed	0 skipped
+13:26:55.959 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+13:26:55.959 
+Total time taken: 4.354s
+13:26:55.959 Updates are available. Run gauge --check-updates for more info.
+13:27:55.477 Checking updates...
+13:28:00.742 # Get book by ISBN Specification
+13:28:00.743 ## User calls web service to get a book by its ISBN
+13:28:00.744 * Given a book exists with an isbn of "0079132863"
+13:28:01.402 * When a user retrieves the book by isbn "0079132863"
+13:28:03.770 * Then the status code is "200"
+13:28:03.879 Plugin [Html Report] with pid [8732] has exited
+13:28:04.180 Specifications:	1 executed	1 passed	0 failed	0 skipped
+13:28:04.180 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+13:28:04.180 
+Total time taken: 3.112s
+13:28:04.180 Updates are available. Run gauge --check-updates for more info.
+14:46:48.581 Got a kill message. Killing runner.
+14:46:52.927 Killing runner with PID:5712 forcefully
+15:43:07.603 Checking updates...
+15:43:11.465 # Get book by ISBN Specification
+15:43:11.466 ## User calls web service to get a book by its ISBN
+15:43:11.468 * Given a book exists with an isbn of "0079132863"
+15:43:12.070 * When a user retrieves the book by isbn "0079132863"
+15:43:14.644 * Then the status code is "200"
+15:43:14.762 Plugin [Html Report] with pid [12292] has exited
+15:43:15.087 Specifications:	1 executed	1 passed	0 failed	0 skipped
+15:43:15.087 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+15:43:15.087 
+Total time taken: 3.319s
+15:43:15.087 Updates are available. Run gauge --check-updates for more info.
+21:05:30.903 Checking updates...
+21:05:38.533 # Get book by ISBN Specification
+21:05:38.534 ## User calls web service to get a book by its ISBN
+21:05:38.538 * Given a book exists with an isbn of "0079132863"
+21:05:39.766 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:05:39.766 Specification: specs\books.spec:13
+21:05:39.766 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:05:39.766 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:05:40.286 Plugin [Html Report] with pid [11888] has exited
+21:05:40.689 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:05:40.689 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:05:40.689 
+Total time taken: 1.615s
+21:08:29.089 Checking updates...
+21:08:35.650 # Get book by ISBN Specification
+21:08:35.651 ## User calls web service to get a book by its ISBN
+21:08:35.654 * Given a book exists with an isbn of "0079132863"
+21:08:36.777 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:08:36.777 Specification: specs\books.spec:13
+21:08:36.777 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:08:36.777 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:08:36.885 Plugin [Html Report] with pid [11112] has exited
+21:08:37.287 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:08:37.287 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:08:37.287 
+Total time taken: 1.236s
+21:11:05.247 Checking updates...
+21:11:12.069 # Get book by ISBN Specification
+21:11:12.071 ## User calls web service to get a book by its ISBN
+21:11:12.074 * Given a book exists with an isbn of "0079132863"
+21:11:13.238 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:11:13.238 Specification: specs\books.spec:13
+21:11:13.238 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:11:13.238 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:11:13.345 Plugin [Html Report] with pid [8912] has exited
+21:11:13.747 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:11:13.747 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:11:13.747 
+Total time taken: 1.28s
+21:13:34.161 Checking updates...
+21:13:40.360 # Get book by ISBN Specification
+21:13:40.362 ## User calls web service to get a book by its ISBN
+21:13:40.364 * Given a book exists with an isbn of "0079132863"
+21:13:41.394 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:13:41.394 Specification: specs\books.spec:13
+21:13:41.394 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:13:41.394 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:13:41.502 Plugin [Html Report] with pid [440] has exited
+21:13:41.904 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:13:41.904 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:13:41.904 
+Total time taken: 1.146s
+21:19:40.578 Checking updates...
+21:19:45.808 # Get book by ISBN Specification
+21:19:45.810 ## User calls web service to get a book by its ISBN
+21:19:45.813 * Given a book exists with an isbn of "0079132863"
+21:19:47.022 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:19:47.022 Specification: specs\books.spec:13
+21:19:47.022 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:19:47.022 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:19:47.134 Plugin [Html Report] with pid [9204] has exited
+21:19:47.536 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:19:47.536 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:19:47.536 
+Total time taken: 1.332s
+21:25:06.746 Checking updates...
+21:25:12.926 # Get book by ISBN Specification
+21:25:12.927 ## User calls web service to get a book by its ISBN
+21:25:12.930 * Given a book exists with an isbn of "0079132863"
+21:25:13.990 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:25:13.990 Specification: specs\books.spec:13
+21:25:13.990 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:25:13.990 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:30)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:25:14.099 Plugin [Html Report] with pid [12232] has exited
+21:25:14.501 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:25:14.501 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:25:14.501 
+Total time taken: 1.173s
+21:28:58.517 Checking updates...
+21:29:04.303 # Get book by ISBN Specification
+21:29:04.304 ## User calls web service to get a book by its ISBN
+21:29:04.307 * Given a book exists with an isbn of "0079132863"
+21:29:05.373 
+Failed Step: Given a book exists with an isbn of "0079132863"
+21:29:05.373 Specification: specs\books.spec:13
+21:29:05.373 Error Message: java.lang.NoClassDefFoundError: org/apache/http/protocol/HTTP
+21:29:05.373 Stacktrace: 
+io.restassured.config.EncoderConfig.<init>(EncoderConfig.java:61)
+io.restassured.config.RestAssuredConfig.<init>(RestAssuredConfig.java:41)
+io.restassured.RestAssured.<clinit>(RestAssured.java:420)
+BookStepDefinitions.a_book_exists_with_isbn(BookStepDefinitions.java:31)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+21:29:05.484 Plugin [Html Report] with pid [8632] has exited
+21:29:05.995 Specifications:	1 executed	0 passed	1 failed	0 skipped
+21:29:05.995 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+21:29:05.995 
+Total time taken: 1.189s
+14:28:44.949 Checking updates...
+14:29:04.115 # Get book by ISBN Specification
+14:29:04.117 ## User calls web service to get a book by its ISBN
+14:29:04.120 * Given a book exists with an isbn of "0079132863"
+14:29:04.901 * When a user retrieves the book by isbn
+14:29:07.303 
+Failed Step: When a user retrieves the book by isbn
+14:29:07.303 Specification: specs\Books.spec:14
+14:29:07.303 Error Message: java.lang.IllegalArgumentException: path cannot be null
+14:29:07.303 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:83)
+org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:77)
+org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+io.restassured.internal.assertion.AssertParameter.notNull(AssertParameter.groovy:26)
+io.restassured.internal.assertion.AssertParameter$notNull.callStatic(Unknown Source)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:56)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:194)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callStatic(AbstractCallSite.java:214)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1582)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+io.restassured.internal.RequestSpecificationImpl.applyPathParamsAndSendRequest(RequestSpecificationImpl.groovy:1637)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1212)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1021)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:812)
+io.restassured.internal.RequestSpecificationImpl.invokeMethod(RequestSpecificationImpl.groovy)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.call(PogoInterceptableSite.java:48)
+org.codehaus.groovy.runtime.callsite.PogoInterceptableSite.callCurrent(PogoInterceptableSite.java:58)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:182)
+io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy:166)
+io.restassured.internal.RequestSpecificationImpl.get(RequestSpecificationImpl.groovy)
+BookStepDefinitions.aUserRetrievesBookWithIsbn(BookStepDefinitions.java:32)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:74)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:49)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+14:29:08.121 Plugin [Html Report] with pid [11652] has exited
+14:29:08.625 Specifications:	1 executed	0 passed	1 failed	0 skipped
+14:29:08.625 Scenarios:	1 executed	0 passed	1 failed	0 skipped
+14:29:08.625 
+Total time taken: 3.66s
+14:29:08.625 Updates are available. Run gauge --check-updates for more info.
+14:31:23.332 Checking updates...
+14:31:31.739 # Get book by ISBN Specification
+14:31:31.741 ## User calls web service to get a book by its ISBN
+14:31:31.744 * Given a book exists with an isbn of "0079132863"
+14:31:32.963 * When a user retrieves the book by isbn
+14:31:36.624 * Then the status code is "200"
+14:31:36.694 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+14:31:37.578 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+14:31:37.871 Plugin [Html Report] with pid [6776] has exited
+14:31:38.374 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:31:38.374 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:31:38.401 
+Total time taken: 7.134s
+14:31:38.487 Updates are available. Run gauge --check-updates for more info.
+14:36:28.989 Checking updates...
+14:36:37.651 # Get book by ISBN Specification
+14:36:37.653 ## User calls web service to get a book by its ISBN
+14:36:37.656 * Given a book exists with an isbn of "0079132863"
+14:36:38.507 * When a user retrieves the book by isbn
+14:36:41.048 * Then the status code is "200"
+14:36:41.097 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+14:36:41.729 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+14:36:41.932 Plugin [Html Report] with pid [9512] has exited
+14:36:42.135 Specifications:	1 executed	1 passed	0 failed	0 skipped
+14:36:42.135 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+14:36:42.135 
+Total time taken: 5.142s
+14:36:42.135 Updates are available. Run gauge --check-updates for more info.

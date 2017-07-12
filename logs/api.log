@@ -1,0 +1,572 @@
+18:02:06.775 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+18:02:06.778 Initializing concepts cache with 0 concepts
+18:02:06.779 Initializing specs cache with 1 specs
+18:02:06.779 Adding specs from C:\Users\osanda\IdeaProjects\APITestingDemo\specs\example.spec
+18:02:06.779 Initializing steps cache with 3 steps
+18:02:06.780 Watching directory: C:\Users\osanda\IdeaProjects\APITestingDemo\specs
+18:02:06.780 Found 1 files
+18:02:07.153 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+18:02:07.154 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.5.1\\libs" > 
+18:02:07.212 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+18:02:07.213 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.5.1\\libs" > 
+18:02:07.454 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+18:02:07.455 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.5.1\\libs" > 
+18:02:07.685 Api Request Received: messageType:GetLanguagePluginLibPathRequest messageId:5 libPathRequest:<language:"java" > 
+18:02:07.686 Sending API response: messageType:GetLanguagePluginLibPathResponse messageId:5 libPathResponse:<path:"C:\\Users\\osanda\\AppData\\Roaming\\gauge\\plugins\\java\\0.5.1\\libs" > 
+18:02:10.984 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+18:02:10.984 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+18:02:10.991 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+18:02:10.991 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+18:02:10.992 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+18:02:10.992 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+18:03:49.619 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:03:49.626 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:03:49.628 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:06:02.172 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:06:02.174 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:03:57.438 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:03:57.485 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:10.930 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:10.932 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:11.166 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:11.166 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:39.711 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:39.713 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:05:40.411 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:05:40.417 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:11.536 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:11.537 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:33.114 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:33.116 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+3.017 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+18:05:43.020 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+18:05:43.027 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+18:05:43.027 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+18:05:43.028 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+18:05:43.028 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+18:05:43.029 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following$" hasInlineTable:false > 
+18:05:43.029 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following$" parameterizedStepValue:"And response includes the following$" > > 
+18:05:43.030 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+18:05:43.030 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+18:05:43.030 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" hasInlineTable:false > 
+18:05:43.031 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+18:05:43.031 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following in any order" hasInlineTable:false > 
+18:05:43.032 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following in any order" parameterizedStepValue:"And response includes the following in any order" > > 
+18:05:43.032 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+18:05:43.032 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+18:05:58.868 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of" hasInlineTable:false > 
+18:05:58.869 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of" parameterizedStepValue:"Given a book exists with an isbn of" > > 
+18:05:59.636 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of \"0079132863\"" hasInlineTable:false > 
+18:05:59.636 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <0079132863>" parameters:"0079132863" > > 
+18:06:02.172 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:06:02.176 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+18:06:11.027 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+18:06:11.030 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+18:06:11.037 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+18:06:11.037 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+18:06:11.038 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+18:06:11.038 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+18:06:11.038 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following$" hasInlineTable:false > 
+18:06:11.038 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following$" parameterizedStepValue:"And response includes the following$" > > 
+18:06:11.040 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+18:06:11.040 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+18:06:11.041 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" hasInlineTable:false > 
+18:06:11.041 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+18:06:11.041 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following in any order" hasInlineTable:false > 
+18:06:11.041 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following in any order" parameterizedStepValue:"And response includes the following in any order" > > 
+18:06:11.042 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+18:06:11.042 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:01:55.310 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of \"0079132863\"" hasInlineTable:true > 
+12:01:55.339 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {} {}" parameterizedStepValue:"Given a book exists with an isbn of <0079132863> <table>" parameters:"0079132863" parameters:"table" > > 
+12:01:58.779 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" hasInlineTable:true > 
+12:01:58.790 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <table>" parameters:"table" > > 
+12:01:58.795 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" hasInlineTable:true > 
+12:01:58.795 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <table>" parameters:"table" > > 
+12:01:58.813 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" hasInlineTable:true > 
+12:01:58.820 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <table>" parameters:"table" > > 
+12:02:02.306 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is 200" hasInlineTable:true > 
+12:02:02.306 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is 200 {}" parameterizedStepValue:"Then the status code is 200 <table>" parameters:"table" > > 
+12:02:07.891 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"| totalItems \t \t\t| 1 \t\t\t\t\t|" hasInlineTable:true > 
+12:02:07.891 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"| totalItems \t \t\t| 1 \t\t\t\t\t| {}" parameterizedStepValue:"| totalItems \t \t\t| 1 \t\t\t\t\t| <table>" parameters:"table" > > 
+12:02:08.001 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following" hasInlineTable:false > 
+12:02:08.001 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following" parameterizedStepValue:"And response includes the following" > > 
+12:02:09.405 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"| kind\t\t\t\t\t| books#volumes\t\t\t|" hasInlineTable:true > 
+12:02:09.406 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"| kind\t\t\t\t\t| books#volumes\t\t\t| {}" parameterizedStepValue:"| kind\t\t\t\t\t| books#volumes\t\t\t| <table>" parameters:"table" > > 
+12:02:09.685 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"| totalItems \t \t\t| 1 \t\t\t\t\t|" hasInlineTable:false > 
+12:02:09.685 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"| totalItems \t \t\t| 1 \t\t\t\t\t|" parameterizedStepValue:"| totalItems \t \t\t| 1 \t\t\t\t\t|" > > 
+12:03:20.569 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn " hasInlineTable:false > 
+12:03:20.569 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+12:03:20.570 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn " hasInlineTable:false > 
+12:03:20.570 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+12:03:21.222 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:03:21.223 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:03:57.438 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:03:57.441 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:10.930 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:10.932 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:11.166 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:11.166 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:35.204 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn \"0079132863\"" hasInlineTable:false > 
+12:04:35.204 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <0079132863>" parameters:"0079132863" > > 
+12:04:39.711 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:04:39.713 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:05:04.922 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:05:04.944 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:05:04.950 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:05:04.950 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:05:04.950 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:05:04.950 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:05:04.951 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following$" hasInlineTable:false > 
+12:05:04.951 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following$" parameterizedStepValue:"And response includes the following$" > > 
+12:05:04.952 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:05:04.952 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:05:04.953 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:05:04.953 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:05:04.954 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And response includes the following in any order" hasInlineTable:false > 
+12:05:04.954 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And response includes the following in any order" parameterizedStepValue:"And response includes the following in any order" > > 
+12:05:04.955 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:05:04.955 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:05:40.411 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:05:40.413 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:11.536 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:11.537 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:33.114 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:11:33.116 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:26:58.486 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+12:26:58.489 Initializing concepts cache with 0 concepts
+12:26:58.490 Watching directory: C:\Users\osanda\IdeaProjects\APITestingDemo\specs
+12:26:58.490 Found 2 files
+12:26:58.490 Initializing specs cache with 2 specs
+12:26:58.490 Adding specs from C:\Users\osanda\IdeaProjects\APITestingDemo\specs\example.spec
+12:26:58.490 Adding specs from C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:26:58.490 Initializing steps cache with 5 steps
+12:27:07.551 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:27:07.551 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:27:07.591 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:27:07.591 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:27:07.592 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:27:07.592 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:27:07.594 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:27:07.706 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:27:07.711 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:27:07.712 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:27:07.713 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:27:07.714 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:27:18.266 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:27:18.266 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:27:18.526 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:27:18.526 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:27:18.548 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:27:18.548 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:27:22.354 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of \"0079132863\"" hasInlineTable:false > 
+12:27:22.354 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <0079132863>" parameters:"0079132863" > > 
+12:27:22.355 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn \"0079132863\"" hasInlineTable:false > 
+12:27:22.356 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <0079132863>" parameters:"0079132863" > > 
+12:27:22.365 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." hasInlineTable:false > 
+12:27:22.365 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+12:27:22.366 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." hasInlineTable:false > 
+12:27:22.366 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+12:27:22.367 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+12:27:22.367 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+12:31:20.062 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:31:20.063 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:31:20.063 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:31:20.064 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:31:20.065 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:31:20.066 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:31:20.067 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:31:20.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:31:20.068 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:31:20.068 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:31:20.069 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:31:20.069 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:31:34.128 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:31:34.128 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:31:34.138 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:31:34.138 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:31:34.139 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:31:34.139 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:31:34.139 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:31:34.140 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:31:34.141 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:31:34.141 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:31:34.143 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:31:34.143 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:47:26.031 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:47:26.034 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:47:27.203 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"" hasInlineTable:false > 
+12:47:27.204 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"" parameterizedStepValue:"" > > 
+12:47:27.904 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is" hasInlineTable:false > 
+12:47:27.904 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is" parameterizedStepValue:"Then the status code is" > > 
+12:47:29.835 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"\"" hasInlineTable:false > 
+12:47:29.835 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <>" parameters:"" > > 
+12:47:29.836 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"\"" hasInlineTable:false > 
+12:47:29.836 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <>" parameters:"" > > 
+12:47:33.132 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"2\"" hasInlineTable:false > 
+12:47:33.134 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <2>" parameters:"2" > > 
+12:47:33.934 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"200\"" hasInlineTable:false > 
+12:47:33.934 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <200>" parameters:"200" > > 
+12:49:00.231 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:49:00.244 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+12:50:52.602 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:50:52.603 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:50:52.613 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:50:52.613 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:50:52.614 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:50:52.614 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:50:52.615 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:50:52.615 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:50:52.616 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:50:52.616 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:50:52.617 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:50:52.617 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:56:02.173 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:56:02.174 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:56:02.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:56:02.183 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:56:02.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:56:02.183 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:56:02.184 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:56:02.184 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:56:02.185 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:56:02.185 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:56:02.186 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:56:02.186 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:57:08.023 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:57:08.024 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:57:08.037 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:57:08.037 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:57:08.038 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:57:08.038 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:57:08.040 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:57:08.040 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:57:08.042 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:57:08.042 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:57:08.043 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:57:08.043 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+12:58:07.209 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+12:58:07.210 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+12:58:07.218 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+12:58:07.218 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+12:58:07.219 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+12:58:07.219 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+12:58:07.219 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+12:58:07.220 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+12:58:07.220 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+12:58:07.221 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+12:58:07.221 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+12:58:07.222 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:03:04.559 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:03:04.560 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:03:04.569 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:03:04.570 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:03:04.571 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:03:04.571 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:03:04.572 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:03:04.572 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:03:04.573 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:03:04.573 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:03:04.575 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:03:04.575 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:07:35.963 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:07:35.964 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:07:35.971 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:07:35.971 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:07:35.971 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:07:35.972 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:07:35.972 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:07:35.972 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:07:35.973 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:07:35.973 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:07:35.974 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:07:35.974 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:12:18.544 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"00\"" hasInlineTable:false > 
+13:12:18.545 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <00>" parameters:"00" > > 
+13:12:18.552 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"00\"" hasInlineTable:false > 
+13:12:18.564 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <00>" parameters:"00" > > 
+13:12:22.336 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"300\"" hasInlineTable:false > 
+13:12:22.337 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <300>" parameters:"300" > > 
+13:12:22.338 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"300\"" hasInlineTable:false > 
+13:12:22.338 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <300>" parameters:"300" > > 
+13:12:23.035 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:12:23.038 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:12:33.276 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:12:33.277 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:12:33.287 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:12:33.288 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:12:33.289 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:12:33.290 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:12:33.290 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:12:33.291 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:12:33.292 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:12:33.292 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:12:33.293 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:12:33.293 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:14:38.711 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"response includes the following in any order" hasInlineTable:false > 
+13:14:38.735 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"response includes the following in any order" parameterizedStepValue:"response includes the following in any order" > > 
+13:16:55.233 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"response con the following in any order" hasInlineTable:false > 
+13:16:55.233 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"response con the following in any order" parameterizedStepValue:"response con the following in any order" > > 
+13:16:56.485 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"response contains the following in any order" hasInlineTable:false > 
+13:16:56.485 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"response contains the following in any order" parameterizedStepValue:"response contains the following in any order" > > 
+13:16:56.485 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"response contains the following in any order" hasInlineTable:false > 
+13:16:56.485 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"response contains the following in any order" parameterizedStepValue:"response contains the following in any order" > > 
+13:17:00.142 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"response contains the following" hasInlineTable:false > 
+13:17:00.142 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"response contains the following" parameterizedStepValue:"response contains the following" > > 
+13:17:14.726 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response includes the following in any order" hasInlineTable:false > 
+13:17:14.726 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response includes the following in any order" parameterizedStepValue:"Response includes the following in any order" > > 
+13:17:17.183 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following" hasInlineTable:false > 
+13:17:17.184 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following" parameterizedStepValue:"Response contains the following" > > 
+13:18:01.970 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following " hasInlineTable:false > 
+13:18:01.972 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following" parameterizedStepValue:"Response contains the following" > > 
+13:18:03.127 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <>" hasInlineTable:false > 
+13:18:03.127 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <>" parameters:"" > > 
+13:18:04.447 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+13:18:04.448 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+13:25:27.859 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:25:27.860 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:25:40.737 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following \"\"" hasInlineTable:false > 
+13:25:40.737 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <>" parameters:"" > > 
+13:25:40.738 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following \"\"" hasInlineTable:false > 
+13:25:40.738 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <>" parameters:"" > > 
+13:25:42.797 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following \"books\"" hasInlineTable:false > 
+13:25:42.797 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <books>" parameters:"books" > > 
+13:25:43.344 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:25:43.346 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:25:53.867 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+13:25:53.868 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+13:25:53.877 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:25:53.877 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:25:53.878 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:25:53.878 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:25:53.879 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:25:53.879 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:25:53.879 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:25:53.880 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:25:53.880 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:25:53.880 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:25:53.881 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:25:53.881 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:26:50.976 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+13:26:50.978 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+13:26:50.986 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:26:50.987 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:26:50.988 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:26:50.988 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:26:50.989 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:26:50.989 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:26:50.989 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:26:50.990 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:26:50.990 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:26:50.991 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:26:50.991 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:26:50.991 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+13:27:53.783 Spec file removed: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:27:53.785 Spec file added / modified: C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+13:28:00.536 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+13:28:00.538 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+13:28:00.547 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+13:28:00.547 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+13:28:00.548 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+13:28:00.548 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+13:28:00.549 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+13:28:00.549 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+13:28:00.550 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+13:28:00.550 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+13:28:00.550 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+13:28:00.551 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+13:28:00.551 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+13:28:00.552 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:46:46.673 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:46:46.747 Watching directory: C:\Users\osanda\IdeaProjects\APITestingDemo\specs
+14:46:46.747 Found 2 files
+14:46:46.769 Initializing concepts cache with 0 concepts
+14:46:46.786 Initializing specs cache with 2 specs
+14:46:46.786 Adding specs from C:\Users\osanda\IdeaProjects\APITestingDemo\specs\books.spec
+14:46:46.786 Adding specs from C:\Users\osanda\IdeaProjects\APITestingDemo\specs\example.spec
+14:46:46.786 Initializing steps cache with 6 steps
+14:46:49.895 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of \"0079132863\"" hasInlineTable:false > 
+14:46:49.903 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <0079132863>" parameters:"0079132863" > > 
+14:46:49.909 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"200\"" hasInlineTable:false > 
+14:46:49.909 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <200>" parameters:"200" > > 
+14:46:50.483 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:46:50.483 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:46:50.512 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:46:50.514 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:46:50.514 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:46:50.557 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:46:50.558 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+14:46:50.558 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:46:50.561 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn \"0079132863\"" hasInlineTable:false > 
+14:46:50.561 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <0079132863>" parameters:"0079132863" > > 
+14:46:50.578 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+14:46:50.578 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+14:46:50.581 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+14:46:50.581 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+14:46:57.809 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+14:46:57.809 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+14:46:57.816 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+14:46:57.816 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+14:46:57.817 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+14:46:57.817 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+14:46:57.822 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+14:46:57.822 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+14:46:57.823 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+14:46:57.823 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+14:46:57.824 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+14:46:57.824 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+14:46:57.825 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+14:46:57.825 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:48:51.490 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." hasInlineTable:false > 
+14:48:51.493 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+14:48:51.500 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." hasInlineTable:false > 
+14:48:51.505 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+14:48:51.523 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+14:48:51.523 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+14:48:51.688 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+14:48:51.688 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+15:43:11.231 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" hasInlineTable:false > 
+15:43:11.232 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+15:43:11.241 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" hasInlineTable:false > 
+15:43:11.241 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+15:43:11.241 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." hasInlineTable:false > 
+15:43:11.241 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+15:43:11.242 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" hasInlineTable:false > 
+15:43:11.242 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+15:43:11.243 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." hasInlineTable:false > 
+15:43:11.243 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+15:43:11.243 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" hasInlineTable:false > 
+15:43:11.243 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+15:43:11.244 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" hasInlineTable:false > 
+15:43:11.244 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:03:18.968 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+21:03:18.985 Watching directory: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs
+21:03:18.986 Found 2 files
+21:03:18.989 Initializing concepts cache with 0 concepts
+21:03:18.993 Initializing specs cache with 2 specs
+21:03:18.993 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\example.spec
+21:03:18.993 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\books.spec
+21:03:18.993 Initializing steps cache with 2 steps
+21:03:55.005 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:03:55.005 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:03:55.222 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:03:55.223 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:03:55.295 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:03:55.296 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:03:55.353 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:03:55.353 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:03:55.478 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is \"200\"" > 
+21:03:55.478 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <200>" parameters:"200" > > 
+21:03:55.479 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of \"0079132863\"" > 
+21:03:55.479 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <0079132863>" parameters:"0079132863" > > 
+21:03:55.480 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn \"0079132863\"" > 
+21:03:55.481 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <0079132863>" parameters:"0079132863" > > 
+21:03:55.495 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are \"aeiou\"." > 
+21:03:55.495 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <aeiou>." parameters:"aeiou" > > 
+21:03:55.496 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word \"gauge\" has \"3\" vowels." > 
+21:03:55.496 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <gauge> has <3> vowels." parameters:"gauge" parameters:"3" > > 
+21:03:55.503 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels" hasInlineTable:true > 
+21:03:55.503 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <table>" parameters:"table" > > 
+21:04:14.917 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Vowels in English language are <vowelString>." > 
+21:04:14.917 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Vowels in English language are {}." parameterizedStepValue:"Vowels in English language are <vowelString>." parameters:"vowelString" > > 
+21:04:14.959 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"The word <word> has <expectedCount> vowels." > 
+21:04:14.960 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"The word {} has {} vowels." parameterizedStepValue:"The word <word> has <expectedCount> vowels." parameters:"word" parameters:"expectedCount" > > 
+21:04:15.076 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Almost all words have vowels <wordsTable>" > 
+21:04:15.079 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Almost all words have vowels {}" parameterizedStepValue:"Almost all words have vowels <wordsTable>" parameters:"wordsTable" > > 
+21:05:15.299 Spec file removed: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\example.spec
+21:05:38.095 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:05:38.098 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:05:38.108 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:05:38.109 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:05:38.109 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:05:38.109 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:05:38.110 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:05:38.110 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:08:35.481 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:08:35.482 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:08:35.494 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:08:35.494 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:08:35.494 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:08:35.494 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:08:35.495 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:08:35.495 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:11:11.903 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:11:11.904 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:11:11.915 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:11:11.915 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:11:11.915 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:11:11.916 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:11:11.916 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:11:11.916 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:13:40.194 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:13:40.195 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:13:40.206 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:13:40.206 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:13:40.206 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:13:40.206 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:13:40.207 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:13:40.207 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:19:45.639 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:19:45.640 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:19:45.650 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:19:45.650 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:19:45.651 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:19:45.651 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:19:45.652 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:19:45.652 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:25:12.762 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:25:12.762 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:25:12.772 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:25:12.772 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:25:12.772 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:25:12.772 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:25:12.773 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:25:12.773 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+21:29:04.134 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Response contains the following <content>" > 
+21:29:04.134 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Response contains the following {}" parameterizedStepValue:"Response contains the following <content>" parameters:"content" > > 
+21:29:04.143 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+21:29:04.144 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+21:29:04.144 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn <isbn>" > 
+21:29:04.144 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn {}" parameterizedStepValue:"When a user retrieves the book by isbn <isbn>" parameters:"isbn" > > 
+21:29:04.145 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+21:29:04.145 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:18:21.510 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+14:18:21.572 Watching directory: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs
+14:18:21.572 Found 2 files
+14:18:21.573 Initializing concepts cache with 0 concepts
+14:18:21.622 Initializing specs cache with 2 specs
+14:18:21.622 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Get_API_Validation.spec
+14:18:21.622 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec
+14:18:21.622 Initializing steps cache with 2 steps
+14:27:48.928 Spec file removed: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Get_API_Validation.spec
+14:29:03.574 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" > 
+14:29:03.578 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+14:29:03.588 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following <responseFields>" > 
+14:29:03.588 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following {}" parameterizedStepValue:"And Response contains the following <responseFields>" parameters:"responseFields" > > 
+14:29:03.590 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+14:29:03.590 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:29:03.591 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+14:29:03.591 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+14:29:03.592 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following in any order <table>" > 
+14:29:03.592 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following in any order {}" parameterizedStepValue:"And Response contains the following in any order <table>" parameters:"table" > > 
+14:31:16.541 Spec file removed: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec
+14:31:16.541 Spec file added / modified: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec
+14:31:30.428 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" > 
+14:31:30.433 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+14:31:30.444 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following <responseFields>" > 
+14:31:30.445 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following {}" parameterizedStepValue:"And Response contains the following <responseFields>" parameters:"responseFields" > > 
+14:31:30.445 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+14:31:30.445 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:31:30.446 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+14:31:30.446 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+14:31:30.446 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following in any order <table>" > 
+14:31:30.446 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following in any order {}" parameterizedStepValue:"And Response contains the following in any order <table>" parameters:"table" > > 
+14:36:36.614 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn" > 
+14:36:36.614 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn" parameterizedStepValue:"When a user retrieves the book by isbn" > > 
+14:36:36.625 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following <responseFields>" > 
+14:36:36.625 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following {}" parameterizedStepValue:"And Response contains the following <responseFields>" parameters:"responseFields" > > 
+14:36:36.627 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+14:36:36.627 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+14:36:36.628 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+14:36:36.628 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+14:36:36.628 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following in any order <table>" > 
+14:36:36.628 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following in any order {}" parameterizedStepValue:"And Response contains the following in any order <table>" parameters:"table" > > 
