@@ -709,3 +709,195 @@ Total time taken: 7.134s
 14:36:42.135 
 Total time taken: 5.142s
 14:36:42.135 Updates are available. Run gauge --check-updates for more info.
+23:38:23.071 Checking updates...
+23:38:28.172 # Login Specification
+23:38:28.174 ## User login into the system
+23:38:28.177 * When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+23:38:29.640 
+Failed Step: When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+23:38:29.640 Specification: specs\Login.spec:13
+23:38:29.695 Error Message: java.lang.NullPointerException
+23:38:29.695 Stacktrace: 
+BaseClass.postAPI(BaseClass.java:36)
+POSTMethod.invokeLoginAPI(POSTMethod.java:22)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+23:38:29.697 # Get book by ISBN Specification
+23:38:29.697 ## User calls web service to get a book by its ISBN
+23:38:29.698 * Given a book exists with an isbn of "0079132863"
+23:38:29.709 * When a user retrieves the book by isbn of "0079132863"
+23:38:29.957 
+Failed Step: When a user retrieves the book by isbn of "0079132863"
+23:38:29.957 Specification: specs\Books.spec:14
+23:38:29.957 Error Message: java.lang.NullPointerException
+23:38:29.957 Stacktrace: 
+BaseClass.getAPI(BaseClass.java:42)
+BookStepDefinitions.aUserRetrievesBookWithIsbn(BookStepDefinitions.java:28)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+23:38:30.062 Plugin [Html Report] with pid [8720] has exited
+23:38:30.463 Specifications:	2 executed	0 passed	2 failed	0 skipped
+23:38:30.463 Scenarios:	2 executed	0 passed	2 failed	0 skipped
+23:38:30.463 
+Total time taken: 1.905s
+23:38:30.463 Updates are available. Run gauge --check-updates for more info.
+23:39:15.916 Checking updates...
+23:39:21.186 # Login Specification
+23:39:21.188 ## User login into the system
+23:39:21.190 * When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+23:39:24.070 * Then the status code should be "200"
+23:39:24.129 * And Response should contains the following 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:39:24.671 * And Response should contains the following in any order 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:39:24.702 # Get book by ISBN Specification
+23:39:24.703 ## User calls web service to get a book by its ISBN
+23:39:24.703 * Given a book exists with an isbn of "0079132863"
+23:39:24.716 * When a user retrieves the book by isbn of "0079132863"
+23:39:26.073 * Then the status code is "200"
+23:39:26.076 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+23:39:26.109 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+23:39:26.253 Plugin [Html Report] with pid [6788] has exited
+23:39:26.554 Specifications:	2 executed	2 passed	0 failed	0 skipped
+23:39:26.554 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+23:39:26.554 
+Total time taken: 5.073s
+23:39:26.554 Updates are available. Run gauge --check-updates for more info.
+23:39:37.308 Checking updates...
+23:39:42.528 # Login Specification
+23:39:42.529 ## User login into the system
+23:39:42.532 * When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+23:39:45.138 * Then the status code should be "200"
+23:39:45.191 * And Response should contains the following 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:39:45.685 * And Response should contains the following in any order 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:39:45.815 Plugin [Html Report] with pid [11468] has exited
+23:39:46.017 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:39:46.017 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+23:39:46.017 
+Total time taken: 3.292s
+23:39:46.017 Updates are available. Run gauge --check-updates for more info.
+23:39:53.544 Checking updates...
+23:39:58.830 # Get book by ISBN Specification
+23:39:58.833 ## User calls web service to get a book by its ISBN
+23:39:58.837 * Given a book exists with an isbn of "0079132863"
+23:39:59.704 * When a user retrieves the book by isbn of "0079132863"
+23:40:02.503 * Then the status code is "200"
+23:40:02.583 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+23:40:03.168 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+23:40:03.323 Plugin [Html Report] with pid [14488] has exited
+23:40:03.625 Specifications:	1 executed	1 passed	0 failed	0 skipped
+23:40:03.625 Scenarios:	1 executed	1 passed	0 failed	0 skipped
+23:40:03.625 
+Total time taken: 4.506s
+23:40:03.625 Updates are available. Run gauge --check-updates for more info.
+23:40:09.349 Checking updates...
+23:40:14.896 # Login Specification
+23:40:14.897 ## User login into the system
+23:40:14.901 * When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+23:40:17.695 * Then the status code should be "200"
+23:40:17.738 * And Response should contains the following 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:40:18.282 * And Response should contains the following in any order 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+23:40:18.321 # Get book by ISBN Specification
+23:40:18.322 ## User calls web service to get a book by its ISBN
+23:40:18.324 * Given a book exists with an isbn of "0079132863"
+23:40:18.334 * When a user retrieves the book by isbn of "0079132863"
+23:40:19.248 * Then the status code is "200"
+23:40:19.250 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+23:40:19.279 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+23:40:19.424 Plugin [Html Report] with pid [14344] has exited
+23:40:19.726 Specifications:	2 executed	2 passed	0 failed	0 skipped
+23:40:19.726 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+23:40:19.726 
+Total time taken: 4.541s
+23:40:19.726 Updates are available. Run gauge --check-updates for more info.

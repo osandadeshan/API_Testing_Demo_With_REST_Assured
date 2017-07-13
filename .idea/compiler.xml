@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="API_Testing_Demo_With_REST_Assured" target="1.8" />
+      <module name="API_Testing_Demo_With_REST_Assured" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

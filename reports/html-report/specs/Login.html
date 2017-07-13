@@ -118,7 +118,7 @@
   <div id="specificationContainer" class="details">
     <header class="curr-spec">
       <div class="spec-head-wrapper">
-        <h3 class="spec-head" title="C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec">Get book by ISBN Specification</h3>
+        <h3 class="spec-head" title="C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Login.spec">Login Specification</h3>
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
@@ -130,12 +130,12 @@
       <div class="spec-meta">
         <div class="spec-filename">
           <label for="specFileName">File Path</label>
-          <input id="specFileName" value="C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec" readonly/>
+          <input id="specFileName" value="C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Login.spec" readonly/>
           <button class="clipboard-btn" data-clipboard-target="#specFileName" title="Copy to Clipboard">
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:00</span>
+        <span class="time">00:00:03</span>
       </div>
 
 	
@@ -149,7 +149,7 @@
     <div class="content">
     
   
-  <span><p>Date Created    : 07/12/2017</p>
+  <span><p>Date Created    : 07/13/2017</p>
 </span>
   
   <span><p>Version         : 1.0.0</p>
@@ -183,8 +183,8 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">User calls web service to get a book by its ISBN</h3>
-    <span class="time">00:00:00</span>
+    <h3 class="head borderBottom">User login into the system</h3>
+    <span class="time">00:00:03</span>
 
 	
   
@@ -202,7 +202,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
+      <span class='time'>Execution Time : 00:00:02</span>
     </h5>
   
   <div class='step-info passed'>
@@ -216,60 +216,22 @@
   
     
       <span>
-        Given a book exists with an isbn of 
+        When the user invokes the login API with valid username as 
       </span>
     
   
     
-      <span class='parameter'>"0079132863"</span>
+      <span class='parameter'>"aansar@gmail.com"</span>
     
-  
-  </div>
-
-  
-  
-    
-  
-  
-	
-  
-
-	</li></ul></div></div>
-  
-    
-  
-
-  
-
-  
-    
-  
-    
-  
-  <div class='step'>
-  
-  
-    <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:00</span>
-    </h5>
-  
-  <div class='step-info passed'>
-  
-  <ul>
-    <li class='step'>
-      <div class='step-txt'>
-
-
-  
   
     
       <span>
-        When a user retrieves the book by isbn of 
+         and valid password as 
       </span>
     
   
     
-      <span class='parameter'>"0079132863"</span>
+      <span class='parameter'>"ayesha@123"</span>
     
   
   </div>
@@ -284,7 +246,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"><p>Response is {<br/>    “kind”: “books#volumes”,<br/>    “totalItems”: 1,<br/>    “items”: [<br/>        {<br/>            “kind”: “books#volume”,<br/>            “id”: “Qs0PAQAAMAAJ”,<br/>            “etag”: “h+Hvymr5dK8”,<br/>            “selfLink”: “<a href="https://www.googleapis.com/books/v1/volumes/Qs0PAQAAMAAJ%22" rel="nofollow">https://www.googleapis.com/books/v1/volumes/Qs0PAQAAMAAJ&#34;</a>,<br/>            “volumeInfo”: {<br/>                “title”: “The Complete Guide to Java Database Programming”,<br/>                “authors”: [<br/>                    “Matthew D. Siple”<br/>                ],<br/>                “publisher”: “Computing McGraw-Hill”,<br/>                “publishedDate”: “1998-01”,<br/>                “description”: “Presenting the complete, in-depth guide to JDBC (Java Database Connectivity)–the key to creating a new generation of data-rich Java applications, and the new standard that database vendors from Oracle to Sybase are lining up to support. North explains the how-to’s of JDBC and covers its relationship with ODBC. The CD contains sample code written to the JDBC and ODBC APIs.”,<br/>                “industryIdentifiers”: [<br/>                    {<br/>                        “type”: “ISBN_10”,<br/>                        “identifier”: “0079132863”<br/>                    },<br/>                    {<br/>                        “type”: “ISBN_13”,<br/>                        “identifier”: “9780079132864”<br/>                    }<br/>                ],<br/>                “readingModes”: {<br/>                    “text”: false,<br/>                    “image”: false<br/>                },<br/>                “pageCount”: 333,<br/>                “printType”: “BOOK”,<br/>                “categories”: [<br/>                    “Computers”<br/>                ],<br/>                “maturityRating”: “NOT_MATURE”,<br/>                “allowAnonLogging”: false,<br/>                “contentVersion”: “preview-1.0.0”,<br/>                “imageLinks”: {<br/>                    “smallThumbnail”: “<a href="http://books.google.com/books/content?id=Qs0PAQAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_api&#34;" rel="nofollow">http://books.google.com/books/content?id=Qs0PAQAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=5&amp;source=gbs_api&#34;</a>,<br/>                    “thumbnail”: “<a href="http://books.google.com/books/content?id=Qs0PAQAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api&#34;" rel="nofollow">http://books.google.com/books/content?id=Qs0PAQAAMAAJ&amp;printsec=frontcover&amp;img=1&amp;zoom=1&amp;source=gbs_api&#34;</a><br/>                },<br/>                “language”: “en”,<br/>                “previewLink”: “<a href="http://books.google.com/books?id=Qs0PAQAAMAAJ&amp;dq=isbn:0079132863&amp;hl=&amp;cd=1&amp;source=gbs_api&#34;" rel="nofollow">http://books.google.com/books?id=Qs0PAQAAMAAJ&amp;dq=isbn:0079132863&amp;hl=&amp;cd=1&amp;source=gbs_api&#34;</a>,<br/>                “infoLink”: “<a href="http://books.google.com/books?id=Qs0PAQAAMAAJ&amp;dq=isbn:0079132863&amp;hl=&amp;source=gbs_api&#34;" rel="nofollow">http://books.google.com/books?id=Qs0PAQAAMAAJ&amp;dq=isbn:0079132863&amp;hl=&amp;source=gbs_api&#34;</a>,<br/>                “canonicalVolumeLink”: “<a href="https://books.google.com/books/about/The_Complete_Guide_to_Java_Database_Prog.html?hl=&amp;id=Qs0PAQAAMAAJ&#34;" rel="nofollow">https://books.google.com/books/about/The_Complete_Guide_to_Java_Database_Prog.html?hl=&amp;id=Qs0PAQAAMAAJ&#34;</a><br/>            },<br/>            “saleInfo”: {<br/>                “country”: “LK”,<br/>                “saleability”: “NOT_FOR_SALE”,<br/>                “isEbook”: false<br/>            },<br/>            “accessInfo”: {<br/>                “country”: “LK”,<br/>                “viewability”: “NO_PAGES”,<br/>                “embeddable”: false,<br/>                “publicDomain”: false,<br/>                “textToSpeechPermission”: “ALLOWED”,<br/>                “epub”: {<br/>                    “isAvailable”: false<br/>                },<br/>                “pdf”: {<br/>                    “isAvailable”: false<br/>                },<br/>                “webReaderLink”: “<a href="http://play.google.com/books/reader?id=Qs0PAQAAMAAJ&amp;hl=&amp;printsec=frontcover&amp;source=gbs_api&#34;" rel="nofollow">http://play.google.com/books/reader?id=Qs0PAQAAMAAJ&amp;hl=&amp;printsec=frontcover&amp;source=gbs_api&#34;</a>,<br/>                “accessViewStatus”: “NONE”,<br/>                “quoteSharingAllowed”: false<br/>            },<br/>            “searchInfo”: {<br/>                “textSnippet”: “Presenting the complete, in-depth guide to JDBC (Java Database Connectivity)–the key to creating a new generation of data-rich Java applications, and the new standard that database vendors from Oracle to Sybase are lining up to support.”<br/>            }<br/>        }<br/>    ]<br/>}</p>
+        <div class="step-message"><p>{<br/>    “status”: “successfull”,<br/>    “token”: “eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhYW5zYXJAZ21haWwuY29tIiwidXNlcklkIjoiMSIsInJvbGUiOiJTdXBlciBBZG1pbiJ9.WpSdQhpuypwSmlVbB9coeYfJSiM9L1KLkN9V9EwQoJu5FfxRRFwDqZcAyhWOCYhlUDM0ya7pcnPllE0eknashw”,<br/>    “userId”: 1<br/>}</p>
  </div>
       </div>
     </div>
@@ -320,7 +282,7 @@
   
     
       <span>
-        Then the status code is 
+        Then the status code should be 
       </span>
     
   
@@ -368,7 +330,7 @@
   
     
       <span>
-        And Response contains the following 
+        And Response should contains the following 
       </span>
     
   
@@ -381,9 +343,9 @@
   </tr>
   <tbody>
     
-    <tr><td>totalItems</td><td>1</td></tr>
+    <tr><td>status</td><td>successfull</td></tr>
     
-    <tr><td>kind</td><td>books#volumes</td></tr>
+    <tr><td>userId</td><td>1</td></tr>
     
   </tbody>
 </table>
@@ -445,7 +407,7 @@
   
     
       <span>
-        And Response contains the following in any order 
+        And Response should contains the following in any order 
       </span>
     
   
@@ -458,11 +420,9 @@
   </tr>
   <tbody>
     
-    <tr><td>items.volumeInfo.title[0]</td><td>The Complete Guide to Java Database Programming</td></tr>
+    <tr><td>status</td><td>successfull</td></tr>
     
-    <tr><td>items.volumeInfo.publisher[0]</td><td>Computing McGraw-Hill</td></tr>
-    
-    <tr><td>items.volumeInfo.pageCount[0]</td><td>333</td></tr>
+    <tr><td>userId</td><td>1</td></tr>
     
   </tbody>
 </table>
@@ -483,7 +443,7 @@
     <div class="message-container">
       <i class="fa fa-minus-square" aria-hidden="true"></i>
       <div class="messages">
-        <div class="step-message"> </div><div class="step-message"> </div><div class="step-message"> </div>
+        <div class="step-message"> </div><div class="step-message"> </div>
       </div>
     </div>
   

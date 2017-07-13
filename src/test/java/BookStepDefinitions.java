@@ -1,13 +1,9 @@
-import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
-import com.thoughtworks.gauge.TableRow;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
-import org.apache.commons.lang.StringUtils;
 import static io.restassured.RestAssured.given;
-import static org.hamcrest.Matchers.equalTo;
 
 
 /**
@@ -15,53 +11,38 @@ import static org.hamcrest.Matchers.equalTo;
  */
 
 
-public class BookStepDefinitions {
+public class BookStepDefinitions extends BaseClass{
 	
 	private Response response;
 	private ValidatableResponse json;
-	private RequestSpecification request;
-	private String BOOKS_SPECIFICATION_HOST = System.getenv("books_specification_host");
+	public RequestSpecification request;
+	private String VOLUMES_API_ENDPOINT = "/books/v1/volumes";
 	
 	@Step("Given a book exists with an isbn of <isbn>")
 	public void aBookExistsWithIsbn(String isbn){
 		request = given().queryParam("q","isbn:" + isbn);
 	}
 	
-	@Step("When a user retrieves the book by isbn")
-	public void aUserRetrievesBookWithIsbn(){
-		response = request.when().get(BOOKS_SPECIFICATION_HOST);
-		Gauge.writeMessage("Response is " + response.prettyPrint());
+	@Step("When a user retrieves the book by isbn of <isbn>")
+	public void aUserRetrievesBookWithIsbn(String isbn){
+		getAPI(VOLUMES_API_ENDPOINT, "isbn:", isbn);
 	}
 	
 	@Step("Then the status code is <statusCode>")
-	public void verifyStatusCode(int statusCode){
-		json = response.then().statusCode(statusCode);
+	public void verifyResponseStatusCode(int statusCode){
+		json = verifyStatusCode(statusCode);
 	}
 	
 	// Asserts on JSON fields with single values
 	@Step("And Response contains the following <responseFields>")
-	public void responseEquals(Table responseFields){
-		for(TableRow row : responseFields.getTableRows()){
-			Gauge.writeMessage(row.getCell("Key" + " | " + row.getCell("Value")));
-				if(StringUtils.isNumeric(row.getCell("Value"))){
-					json.body(row.getCell("Key"), equalTo(Integer.parseInt(row.getCell("Value"))));
-				} else {
-					json.body(row.getCell("Key"), equalTo(row.getCell("Value")));
-			}
-		}
+	public void responseContains(Table responseFields){
+		responseEquals(responseFields);
 	}
 	
 	// Asserts on JSON Arrays
 	@Step("And Response contains the following in any order <table>")
 	public void responseContainsInAnyOrder(Table responseFields){
-		for(TableRow row : responseFields.getTableRows()){
-			Gauge.writeMessage(row.getCell("Key" + " | " + row.getCell("Value")));
-				if(StringUtils.isNumeric(row.getCell("Value"))){
-					json.body(row.getCell("Key"), equalTo(Integer.parseInt(row.getCell("Value"))));
-				} else {
-					json.body(row.getCell("Key"), equalTo(row.getCell("Value")));
-			}
-		}
+		responseEquals(responseFields);
 	}
 	
 }

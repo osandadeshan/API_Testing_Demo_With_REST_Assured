@@ -5,12 +5,13 @@ Version   		: 1.0.0
 Owner      		: Osanda Deshan
 Description  	: This is an executable specification file which follows markdown syntax.
                   Every heading in this file denotes a scenario. Every bulleted point denotes a step.
-
+                  
+                  
 
 User calls web service to get a book by its ISBN
 ------------------------------------------------
 * Given a book exists with an isbn of "0079132863"
-* When a user retrieves the book by isbn
+* When a user retrieves the book by isbn of "0079132863"
 * Then the status code is "200"
 * And Response contains the following
         |Key        |Value        |
