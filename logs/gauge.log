@@ -901,3 +901,45 @@ Total time taken: 4.506s
 23:40:19.726 
 Total time taken: 4.541s
 23:40:19.726 Updates are available. Run gauge --check-updates for more info.
+22:44:56.045 Checking updates...
+22:45:01.670 # Login Specification
+22:45:01.672 ## User login into the system
+22:45:01.674 * Given that the user invokes "Login API"
+22:45:03.467 * When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
+22:45:05.658 * Then the status code should be "200"
+22:45:05.709 * And Response should contains the following 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+22:45:06.275 * And Response should contains the following in any order 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+22:45:06.304 # Get book by ISBN Specification
+22:45:06.304 ## User calls web service to get a book by its ISBN
+22:45:06.308 * Given a book exists with an isbn of "0079132863"
+22:45:06.320 * When a user retrieves the book by isbn of "0079132863"
+22:45:07.915 * Then the status code is "200"
+22:45:07.917 * And Response contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+22:45:07.949 * And Response contains the following in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+22:45:08.207 Plugin [Html Report] with pid [6028] has exited
+22:45:08.408 Specifications:	2 executed	2 passed	0 failed	0 skipped
+22:45:08.408 Scenarios:	2 executed	2 passed	0 failed	0 skipped
+22:45:08.408 
+Total time taken: 6.457s
+22:45:08.408 Updates are available. Run gauge --check-updates for more info.

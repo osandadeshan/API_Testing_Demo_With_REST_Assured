@@ -3,8 +3,7 @@ Get book by ISBN Specification
 Date Created    : 07/12/2017
 Version   		: 1.0.0
 Owner      		: Osanda Deshan
-Description  	: This is an executable specification file which follows markdown syntax.
-                  Every heading in this file denotes a scenario. Every bulleted point denotes a step.
+Description  	: This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.
                   
                   
 

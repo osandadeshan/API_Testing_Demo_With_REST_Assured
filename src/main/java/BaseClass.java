@@ -21,11 +21,21 @@ public class BaseClass {
     private Response response;
     private ValidatableResponse json;
     private RequestSpecification request = getRequestSpecification();
-    private String SERVER_HOST = System.getenv("server_host");
+    public String SERVER_HOST = System.getenv("server_host");
     private String GOOGLE_BOOKS_HOST = System.getenv("google_books_host");
     
     public RequestSpecification getRequestSpecification(){
         return RestAssured.given().contentType(ContentType.JSON);
+    }
+    
+    public void printApiEndpoint(String API_ENDPOINT){
+        System.out.println("API Endpoint is: " +"\n"+ API_ENDPOINT);
+        Gauge.writeMessage("API Endpoint is: " +"\n"+ API_ENDPOINT);
+    }
+    
+    public static void printRequest(String REQUEST){
+        System.out.println("Request is: " +"\n"+ REQUEST);
+        Gauge.writeMessage("Request is: " +"\n"+ REQUEST);
     }
     
     public void postAPI(String API_ENDPOINT, String JsonPayload){
@@ -34,14 +44,14 @@ public class BaseClass {
                         body(JsonPayload).
                         when().
                         post(SERVER_HOST.concat(API_ENDPOINT));
-        System.out.println(response.prettyPrint());
-        Gauge.writeMessage(response.prettyPrint());
+        System.out.println("Response is: " +"\n"+ response.prettyPrint());
+        Gauge.writeMessage("Response is: " +"\n"+ response.prettyPrint());
     }
     
     public void getAPI(String API_ENDPOINT, String queryParameters, String queryValues){
         response = request.given().queryParam("q",queryParameters + queryValues).when().get(GOOGLE_BOOKS_HOST.concat(API_ENDPOINT));
-        System.out.println("Response is " + response.prettyPrint());
-        Gauge.writeMessage("Response is " + response.prettyPrint());
+        System.out.println("Response is: " +"\n"+ response.prettyPrint());
+        Gauge.writeMessage("Response is: " +"\n"+ response.prettyPrint());
     }
     
     public ValidatableResponse verifyStatusCode(int statusCode){
@@ -60,5 +70,6 @@ public class BaseClass {
             }
         }
     }
+   
     
 }

@@ -1,6 +1,7 @@
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
 import io.restassured.response.ValidatableResponse;
+import java.io.IOException;
 
 
 /**
@@ -11,15 +12,16 @@ import io.restassured.response.ValidatableResponse;
 public class POSTMethod extends BaseClass{
 	
 	public ValidatableResponse json;
-	private String LOGIN_API_ENDPOINT = "/Kraydel-server/rest/login";
+	
+	@Step("Given that the user invokes <apiEndpointName>")
+	public void invokeApi(String apiEndpointName) throws IOException {
+		printApiEndpoint(ApiEndpoints.getApiEndpontByName(apiEndpointName));
+	}
 	
 	@Step("When the user invokes the login API with valid username as <username> and valid password as <password>")
-	public void invokeLoginAPI(String username, String password){
-		String JsonPayloadForLogin = "{" +
-											"\"username\":\"" +username+ "\"," +
-											"\"password\":\"" +password+ "\"" +
-									  "}";
-		postAPI(LOGIN_API_ENDPOINT, JsonPayloadForLogin);
+	public void response(String username, String password) throws IOException {
+		String JsonPayloadForLogin = JsonRequestsCreator.setJsonBodyForLoginRequest(username,password);
+		postAPI(ApiEndpoints.getApiEndpontByName("Login API"), JsonPayloadForLogin);
 	}
 	
 	@Step("Then the status code should be <statusCode>")
@@ -38,5 +40,6 @@ public class POSTMethod extends BaseClass{
 	public void responseContainsInAnyOrder(Table responseFields){
 		responseEquals(responseFields);
 	}
+	
 	
 }

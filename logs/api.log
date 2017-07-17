@@ -668,3 +668,31 @@
 23:40:14.725 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response should contains the following in any order {}" parameterizedStepValue:"And Response should contains the following in any order <table>" parameters:"table" > > 
 23:40:14.725 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
 23:40:14.725 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
+22:42:35.572 Failed to start execution API Service. GAUGE_API_V2_PORT Environment variable not set 
+22:42:35.637 Watching directory: C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs
+22:42:35.637 Found 2 files
+22:42:35.654 Initializing concepts cache with 0 concepts
+22:42:35.655 Initializing specs cache with 2 specs
+22:42:35.655 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Books.spec
+22:42:35.655 Adding specs from C:\Users\Osanda\IdeaProjects\API_Testing_Demo_With_REST_Assured\specs\Login.spec
+22:42:35.655 Initializing steps cache with 2 steps
+22:45:01.446 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When a user retrieves the book by isbn of <isbn>" > 
+22:45:01.447 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When a user retrieves the book by isbn of {}" parameterizedStepValue:"When a user retrieves the book by isbn of <isbn>" parameters:"isbn" > > 
+22:45:01.458 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following <responseFields>" > 
+22:45:01.458 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following {}" parameterizedStepValue:"And Response contains the following <responseFields>" parameters:"responseFields" > > 
+22:45:01.459 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given a book exists with an isbn of <isbn>" > 
+22:45:01.459 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given a book exists with an isbn of {}" parameterizedStepValue:"Given a book exists with an isbn of <isbn>" parameters:"isbn" > > 
+22:45:01.459 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response should contains the following <responseFields>" > 
+22:45:01.460 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response should contains the following {}" parameterizedStepValue:"And Response should contains the following <responseFields>" parameters:"responseFields" > > 
+22:45:01.460 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Given that the user invokes <apiEndpointName>" > 
+22:45:01.460 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Given that the user invokes {}" parameterizedStepValue:"Given that the user invokes <apiEndpointName>" parameters:"apiEndpointName" > > 
+22:45:01.461 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code should be <statusCode>" > 
+22:45:01.461 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code should be {}" parameterizedStepValue:"Then the status code should be <statusCode>" parameters:"statusCode" > > 
+22:45:01.461 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response contains the following in any order <table>" > 
+22:45:01.462 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response contains the following in any order {}" parameterizedStepValue:"And Response contains the following in any order <table>" parameters:"table" > > 
+22:45:01.462 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"When the user invokes the login API with valid username as <username> and valid password as <password>" > 
+22:45:01.462 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"When the user invokes the login API with valid username as {} and valid password as {}" parameterizedStepValue:"When the user invokes the login API with valid username as <username> and valid password as <password>" parameters:"username" parameters:"password" > > 
+22:45:01.463 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"And Response should contains the following in any order <table>" > 
+22:45:01.463 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"And Response should contains the following in any order {}" parameterizedStepValue:"And Response should contains the following in any order <table>" parameters:"table" > > 
+22:45:01.464 Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:<stepText:"Then the status code is <statusCode>" > 
+22:45:01.464 Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:<stepValue:<stepValue:"Then the status code is {}" parameterizedStepValue:"Then the status code is <statusCode>" parameters:"statusCode" > > 
