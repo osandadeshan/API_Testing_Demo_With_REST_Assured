@@ -1,5 +1,5 @@
-Login Specification
-===================
+Create Hospital Specification
+=============================
 Date Created    : 07/13/2017
 Version   		: 1.0.0
 Owner      		: Osanda Deshan
@@ -7,11 +7,11 @@ Description  	: This is an executable specification file which follows markdown 
                   
                   
      
-User login into the system
---------------------------
-* Given that the user invokes "Login API"
-* When the user invokes the login API with valid username as "aansar@gmail.com" and valid password as "ayesha@123"
-* Then the status code for login with valid credentials is "200"
+Create Hospital in the system
+-----------------------------
+* Given that the user invokes "Create Hospital"
+* When the user invokes the Hospital Create API with valid details "3" and "Hospital2"
+* Then the status code for creating hospital is "200"
 * And Response should contains the following
         |Key        |Value        |
         |-----------|-------------|

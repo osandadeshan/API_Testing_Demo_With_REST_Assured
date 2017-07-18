@@ -1,6 +1,8 @@
 import com.thoughtworks.gauge.Gauge;
 import com.thoughtworks.gauge.Table;
 import com.thoughtworks.gauge.TableRow;
+import com.thoughtworks.gauge.datastore.DataStore;
+import com.thoughtworks.gauge.datastore.DataStoreFactory;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -8,6 +10,9 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.apache.commons.lang.StringUtils;
 import org.hamcrest.CoreMatchers;
+
+import java.io.IOException;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -28,28 +33,80 @@ public class BaseClass {
         return RestAssured.given().contentType(ContentType.JSON);
     }
     
-    public void printApiEndpoint(String API_ENDPOINT){
-        System.out.println("API Endpoint is: " +"\n"+ API_ENDPOINT);
-        Gauge.writeMessage("API Endpoint is: " +"\n"+ API_ENDPOINT);
+    public void printApiEndpoint(String apiEndpoint){
+        System.out.println("API Endpoint is: " +"\n"+ apiEndpoint);
+        Gauge.writeMessage("API Endpoint is: " +"\n"+ apiEndpoint);
     }
     
-    public static void printRequest(String REQUEST){
-        System.out.println("Request is: " +"\n"+ REQUEST);
-        Gauge.writeMessage("Request is: " +"\n"+ REQUEST);
+    public void invokeApi(String apiEndpointName) throws IOException {
+        // Adding value to the Data Store
+        DataStore scenarioStore = DataStoreFactory.getScenarioDataStore();
+        scenarioStore.put("API_NAME", apiEndpointName);
+        // Print API Endpoint
+        printApiEndpoint(ApiEndpoints.getApiEndpontByName(apiEndpointName));
     }
     
-    public void postAPI(String API_ENDPOINT, String JsonPayload){
+    public static void printRequest(String request){
+        System.out.println("Request is: " +"\n"+ request);
+        Gauge.writeMessage("Request is: " +"\n"+ request);
+    }
+    
+    public void postAPI(String jsonPayload) throws IOException {
+        // Fetching Value from the Data Store
+        DataStore scenarioStore = DataStoreFactory.getScenarioDataStore();
+        String API_NAME = (String) scenarioStore.get("API_NAME");
+        // Executing API and getting the response
         response = given()
-                .contentType("application/json").
-                        body(JsonPayload).
-                        when().
-                        post(SERVER_HOST.concat(API_ENDPOINT));
+                .contentType("application/json")
+                .body(jsonPayload)
+                .when()
+                .post(SERVER_HOST.concat(ApiEndpoints.getApiEndpontByName(API_NAME)));
         System.out.println("Response is: " +"\n"+ response.prettyPrint());
         Gauge.writeMessage("Response is: " +"\n"+ response.prettyPrint());
     }
     
-    public void getAPI(String API_ENDPOINT, String queryParameters, String queryValues){
-        response = request.given().queryParam("q",queryParameters + queryValues).when().get(GOOGLE_BOOKS_HOST.concat(API_ENDPOINT));
+    public void postAPI(String apiEndpoint, String jsonPayload){
+        response = given()
+                .contentType("application/json")
+                .body(jsonPayload)
+                .when()
+                .post(SERVER_HOST.concat(apiEndpoint));
+        System.out.println("Response is: " +"\n"+ response.prettyPrint());
+        Gauge.writeMessage("Response is: " +"\n"+ response.prettyPrint());
+    }
+    
+    public void postAPIWithAuth(String jsonPayload, String headerName, String headerValue) throws IOException {
+        // Fetching Value from the Data Store
+        DataStore scenarioStore = DataStoreFactory.getScenarioDataStore();
+        String API_NAME = (String) scenarioStore.get("API_NAME");
+        // Executing API and getting the response
+        response = given()
+                .contentType("application/json")
+                .header(headerName, headerValue) //Some API contains headers to run with the API
+                .body(jsonPayload)
+                .when()
+                .post(ApiEndpoints.getApiEndpontByName(API_NAME));
+        System.out.println("Response is: " +"\n"+ response.print());
+        Gauge.writeMessage("Response is: " +"\n"+ response.print());
+    }
+    
+    public void postAPIWithAuth(String apiEndpoint, String jsonPayload, String headerName, String headerValue) throws IOException {
+        response = given()
+                .contentType("application/json")
+                .header(headerName, headerValue) //Some API contains headers to run with the API
+                .body(jsonPayload)
+                .when()
+                .post(ApiEndpoints.getApiEndpontByName(apiEndpoint));
+        System.out.println("Response is: " +"\n"+ response.print());
+        Gauge.writeMessage("Response is: " +"\n"+ response.print());
+    }
+    
+    public void getAPI(String apiEndpoint, String queryParameters, String queryValues){
+        response = request
+                .given()
+                .queryParam("q",queryParameters + queryValues)
+                .when()
+                .get(GOOGLE_BOOKS_HOST.concat(apiEndpoint));
         System.out.println("Response is: " +"\n"+ response.prettyPrint());
         Gauge.writeMessage("Response is: " +"\n"+ response.prettyPrint());
     }

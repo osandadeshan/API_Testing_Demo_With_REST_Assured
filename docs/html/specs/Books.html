@@ -1,0 +1,33 @@
+<link rel="stylesheet" type="text/css" href="..\style.css"><h1>Get book by ISBN Specification</h1>
+<p>Date Created    : 07/12/2017
+Version         : 1.0.0
+Owner           : Osanda Deshan
+Description     : This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.</p>
+<h2>User calls web service to get a book by its ISBN</h2>
+<ul>
+<li>
+<p>Given a book exists with an isbn of &quot;0079132863&quot;</p>
+</li>
+<li>
+<p>When a user retrieves the book by isbn of &quot;0079132863&quot;</p>
+</li>
+<li>
+<p>Then the status code for retrieving book is &quot;200&quot;</p>
+</li>
+<li>
+<p>And Response contains the following
+|Key        |Value        |
+|-----------|-------------|
+|totalItems |1            |
+|kind       |books#volumes|</p>
+</li>
+<li>
+<p>And Response contains the following in any order
+|Key                          |Value                                             |
+|-----------------------------|--------------------------------------------------|
+|items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming   |
+|items.volumeInfo.publisher[0]|Computing McGraw-Hill                             |
+|items.volumeInfo.pageCount[0]|333                                               |</p>
+</li>
+</ul>
+<ul id="navigation"><center><li class="nav"><a href="..\index.html">=</a></li><li class="nav"><a href=".\CreateHospital.html">></a></li></center>

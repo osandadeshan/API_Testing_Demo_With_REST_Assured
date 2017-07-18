@@ -1,0 +1,2 @@
+var tags = []
+var specs = [{"path":"specs\\Books.html","name":"Get book by ISBN Specification","scenarios":[{"name":"User calls web service to get a book by its ISBN","tags":[]}]},{"path":"specs\\CreateHospital.html","name":"Create Hospital Specification","scenarios":[{"name":"Create Hospital in the system","tags":[]}]},{"path":"specs\\Login.html","name":"Login Specification","scenarios":[{"name":"User login into the system","tags":[]}]}]

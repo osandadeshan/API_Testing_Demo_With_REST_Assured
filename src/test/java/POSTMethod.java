@@ -1,5 +1,7 @@
 import com.thoughtworks.gauge.Step;
 import com.thoughtworks.gauge.Table;
+import com.thoughtworks.gauge.datastore.DataStore;
+import com.thoughtworks.gauge.datastore.DataStoreFactory;
 import io.restassured.response.ValidatableResponse;
 import java.io.IOException;
 
@@ -13,18 +15,23 @@ public class POSTMethod extends BaseClass{
 	
 	public ValidatableResponse json;
 	
-	@Step("Given that the user invokes <apiEndpointName>")
-	public void invokeApi(String apiEndpointName) throws IOException {
-		printApiEndpoint(ApiEndpoints.getApiEndpontByName(apiEndpointName));
-	}
+//	@Step("Given that the user invokes <apiEndpointName>")
+//	public void invokeApi(String apiEndpointName) throws IOException {
+//		// Adding value to the Data Store
+//		DataStore scenarioStore = DataStoreFactory.getScenarioDataStore();
+//		scenarioStore.put("API_NAME", apiEndpointName);
+//		// Print API Endpoint
+//		printApiEndpoint(ApiEndpoints.getApiEndpontByName(apiEndpointName));
+//	}
 	
 	@Step("When the user invokes the login API with valid username as <username> and valid password as <password>")
-	public void response(String username, String password) throws IOException {
+	public void responseForLoginApi(String username, String password) throws IOException {
 		String JsonPayloadForLogin = JsonRequestsCreator.setJsonBodyForLoginRequest(username,password);
-		postAPI(ApiEndpoints.getApiEndpontByName("Login API"), JsonPayloadForLogin);
+		// Executing API and getting the response
+		postAPI(JsonPayloadForLogin);
 	}
 	
-	@Step("Then the status code should be <statusCode>")
+	@Step("Then the status code for login with valid credentials is <statusCode>")
 	public void verifyResponseStatusCode(int statusCode){
 		json = verifyStatusCode(statusCode);
 	}

@@ -17,5 +17,14 @@ public abstract class JsonRequestsCreator extends BaseClass{
 		return finalJsonRequestBody;
 	}
 	
+	public static String setJsonBodyForHospitalCreateRequest(String hospitalId, String hospitalName) throws IOException {
+		String request = ReadDataFromApiDoc.getRequestTemplate(ApiNames.HOSPITAL_CREATE_NAME);
+		String replaceWithValueForHospitalId = request.replaceAll("#hospitalId", hospitalId);
+		String replaceWithValueForHospitalName = replaceWithValueForHospitalId.replaceAll("#hospitalName", hospitalName);
+		String finalJsonRequestBody = replaceWithValueForHospitalName;
+		printRequest(finalJsonRequestBody);
+		return finalJsonRequestBody;
+	}
+	
 	
 }

@@ -1,1 +1,1 @@
-var index = {"Tags":{},"Specs":{"Get book by ISBN Specification":["specs\\Books.html"],"Login Specification":["specs\\Login.html"]}};
+var index = {"Tags":{},"Specs":{"Create Hospital Specification":["specs\\CreateHospital.html"],"Get book by ISBN Specification":["specs\\Books.html"],"Login Specification":["specs\\Login.html"]}};

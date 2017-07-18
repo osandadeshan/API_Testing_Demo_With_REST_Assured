@@ -11,7 +11,7 @@ User calls web service to get a book by its ISBN
 ------------------------------------------------
 * Given a book exists with an isbn of "0079132863"
 * When a user retrieves the book by isbn of "0079132863"
-* Then the status code is "200"
+* Then the status code for retrieving book is "200"
 * And Response contains the following
         |Key        |Value        |
         |-----------|-------------|

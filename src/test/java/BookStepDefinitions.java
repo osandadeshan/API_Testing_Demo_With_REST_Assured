@@ -28,7 +28,7 @@ public class BookStepDefinitions extends BaseClass{
 		getAPI(VOLUMES_API_ENDPOINT, "isbn:", isbn);
 	}
 	
-	@Step("Then the status code is <statusCode>")
+	@Step("Then the status code for retrieving book is <statusCode>")
 	public void verifyResponseStatusCode(int statusCode){
 		json = verifyStatusCode(statusCode);
 	}
