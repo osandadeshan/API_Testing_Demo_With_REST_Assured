@@ -11,14 +11,14 @@ User calls web service to get a book by its ISBN
 ------------------------------------------------
 * Given a book exists with an isbn of "0079132863"
 * When a user retrieves the book by isbn of "0079132863"
-* Then the status code for retrieving book is "200"
-* And Response contains the following
+* Then the status code for retrieving book request is "200"
+* And the response for retrieving book request contains the following
         |Key        |Value        |
         |-----------|-------------|
         |totalItems |1            |
         |kind       |books#volumes|
 
-* And Response contains the following in any order
+* And the response for retrieving book request contains the following information in any order
         |Key                          |Value                                             |
         |-----------------------------|--------------------------------------------------|
         |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming   |

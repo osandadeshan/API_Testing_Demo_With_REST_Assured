@@ -61,11 +61,11 @@
         </li>
         <li>
           <label>Total Time </label>
-          <span>00:00:11</span>
+          <span>00:00:19</span>
         </li>
         <li>
           <label>Generated On </label>
-          <span>Jul 18, 2017 at 10:51pm</span>
+          <span>Jul 20, 2017 at 4:00pm</span>
         </li>
       </ul>
     </div>
@@ -94,7 +94,7 @@
               <li class='failed spec-name'>
             
               <span id="scenarioName" class="scenarioname">Create Hospital Specification</span>
-              <span id="time" class="time">00:00:04</span>
+              <span id="time" class="time">00:00:07</span>
             </li>
           </a>
           
@@ -112,7 +112,7 @@
               <li class='passed spec-name'>
             
               <span id="scenarioName" class="scenarioname">Login Specification</span>
-              <span id="time" class="time">00:00:04</span>
+              <span id="time" class="time">00:00:09</span>
             </li>
           </a>
           
@@ -131,7 +131,7 @@
         <div class="hidden report_test-results" alt="Scenarios" title="Scenarios">
           <ul>
             <li class="fail"><span class="value">0</span><span class="txt">Failed</span></li>
-            <li class="pass"><span class="value">1</span><span class="txt">Passed</span></li>
+            <li class="pass"><span class="value">16</span><span class="txt">Passed</span></li>
             <li class="skip"><span class="value">0</span><span class="txt">Skipped</span></li>
           </ul>
         </div>
@@ -144,10 +144,17 @@
               <i class="fa fa-clipboard" aria-hidden="true" title="Copy to Clipboard"></i>
           </button>
         </div>
-        <span class="time">00:00:04</span>
+        <span class="time">00:00:09</span>
       </div>
 
 	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login</span>
+      
+    </div>
   
 
 	</header>
@@ -176,6 +183,8 @@
   
   <span></span>
   
+  <span></span>
+  
   
 
   
@@ -188,10 +197,17 @@
 
 	
   <div class="scenario-head">
-    <h3 class="head borderBottom">User login into the system</h3>
-    <span class="time">00:00:04</span>
+    <h3 class="head borderBottom">User login into the system with valid username and valid password</h3>
+    <span class="time">00:00:00</span>
 
 	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-success</span>
+      
+    </div>
   
 
 	</div>
@@ -201,13 +217,19 @@
   
     
   
+    <span></span>
+  
+
+  
+    
+  
     
   
   <div class='step'>
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:01</span>
+      <span class='time'>Execution Time : 00:00:00</span>
     </h5>
   
   <div class='step-info passed'>
@@ -263,7 +285,7 @@
   
   
     <h5 class='execution-time'>
-      <span class='time'>Execution Time : 00:00:02</span>
+      <span class='time'>Execution Time : 00:00:00</span>
     </h5>
   
   <div class='step-info passed'>
@@ -277,7 +299,7 @@
   
     
       <span>
-        When the user invokes the login API with valid username as 
+        When the user invokes the login API with a username as 
       </span>
     
   
@@ -287,7 +309,7 @@
   
     
       <span>
-         and valid password as 
+         and a password as 
       </span>
     
   
@@ -344,7 +366,7 @@
   
     
       <span>
-        Then the status code for login with valid credentials is 
+        Then the status code for login request is 
       </span>
     
   
@@ -392,7 +414,7 @@
   
     
       <span>
-        And Response should contains the following 
+        And the response for login request contains the following 
       </span>
     
   
@@ -449,6 +471,55 @@
   
     
   
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with valid username and invalid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
     
   
   <div class='step'>
@@ -469,7 +540,178 @@
   
     
       <span>
-        And Response should contains the following in any order 
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.com"</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@12"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.com”,<br/> “password”: “ayesha@12”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
       </span>
     
   
@@ -482,9 +724,4111 @@
   </tr>
   <tbody>
     
-    <tr><td>status</td><td>successfull</td></tr>
+    <tr><td>status</td><td>unauthorized</td></tr>
     
-    <tr><td>userId</td><td>1</td></tr>
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with valid username and empty password</h3>
+    <span class="time">00:00:01</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.com"</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.com”,<br/> “password”: “”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with valid username and null password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with valid username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.com"</span>
+    
+  
+    
+      <span>
+         and null password
+      </span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.com”,<br/> “password”: null<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with invalid username and valid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.co"</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@123"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.co”,<br/> “password”: “ayesha@123”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with invalid username and invalid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.co"</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@12"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.co”,<br/> “password”: “ayesha@12”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with invalid username and empty password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.co"</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.co”,<br/> “password”: “”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with invalid username and null password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with valid username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"aansar@gmail.co"</span>
+    
+  
+    
+      <span>
+         and null password
+      </span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “aansar@gmail.co”,<br/> “password”: null<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with empty username and valid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@123"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “”,<br/> “password”: “ayesha@123”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with empty username and invalid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@12"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “”,<br/> “password”: “ayesha@12”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with empty username and empty password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user invokes the login API with a username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+    
+      <span>
+         and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “”,<br/> “password”: “”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with empty username and null password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with valid username as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+    
+      <span>
+         and null password
+      </span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: “”,<br/> “password”: null<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with null username and valid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with null username and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@123"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: null,<br/> “password”: “ayesha@123”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with null username and invalid password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with null username and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>"ayesha@12"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: null,<br/> “password”: “ayesha@12”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with null username and empty password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with null username and a password as 
+      </span>
+    
+  
+    
+      <span class='parameter'>""</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: null,<br/> “password”: “”<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
+    
+  </tbody>
+</table>
+
+        </div>
+      </div>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"> </div><div class="step-message"> </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    <span></span>
+  
+
+  
+  
+
+	
+	</div>
+
+      
+        
+	
+  <div class='scenario-container passed'>
+    
+
+	
+  <div class="scenario-head">
+    <h3 class="head borderBottom">User login into the system with null username and null password</h3>
+    <span class="time">00:00:00</span>
+
+	
+  
+    <div class="tags scenario_tags contentSection">
+      <strong>Tags:</strong>
+      
+        <span> login-fail</span>
+      
+    </div>
+  
+
+	</div>
+	
+
+  
+  
+    
+  
+    <span></span>
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Given that the user invokes 
+      </span>
+    
+  
+    
+      <span class='parameter'>"Login API"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>API Endpoint is: <br/>/Kraydel-server/rest/login</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        When the user trying to invoke the login API with null username and null password
+      </span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+    <div class="message-container">
+      <i class="fa fa-minus-square" aria-hidden="true"></i>
+      <div class="messages">
+        <div class="step-message"><p>Request is: <br/>{<br/> “username”: null,<br/> “password”: null<br/>}</p>
+ </div><div class="step-message"><p>Response is: <br/>{<br/>    “status”: “unauthorized”,<br/>    “token”: null,<br/>    “userId”: null<br/>}</p>
+ </div>
+      </div>
+    </div>
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        Then the status code for login request is 
+      </span>
+    
+  
+    
+      <span class='parameter'>"200"</span>
+    
+  
+  </div>
+
+  
+  
+    
+  
+  
+	
+  
+
+	</li></ul></div></div>
+  
+    
+  
+
+  
+
+  
+    
+  
+    
+  
+  <div class='step'>
+  
+  
+    <h5 class='execution-time'>
+      <span class='time'>Execution Time : 00:00:00</span>
+    </h5>
+  
+  <div class='step-info passed'>
+  
+  <ul>
+    <li class='step'>
+      <div class='step-txt'>
+
+
+  
+  
+    
+      <span>
+        And the response for login request contains the following 
+      </span>
+    
+  
+    
+      <div class='inline-table'>
+        <div>
+          <table>
+  <tr>
+    <th>Key</th><th>Value</th>
+  </tr>
+  <tbody>
+    
+    <tr><td>status</td><td>unauthorized</td></tr>
+    
+    <tr><td>userId</td><td>null</td></tr>
     
   </tbody>
 </table>

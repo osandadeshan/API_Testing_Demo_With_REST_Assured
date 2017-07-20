@@ -11,14 +11,8 @@ Create Hospital in the system
 -----------------------------
 * Given that the user invokes "Create Hospital"
 * When the user invokes the Hospital Create API with valid details "3" and "Hospital2"
-* Then the status code for creating hospital is "200"
-* And Response should contains the following
-        |Key        |Value        |
-        |-----------|-------------|
-        |status     |successfull  |
-        |userId     |1            |
-
-* And Response should contains the following in any order
+* Then the status code for creating hospital request is "200"
+* And the response for creating hospital request contains the following information in any order
         |Key        |Value        |
         |-----------|-------------|
         |status     |successfull  |

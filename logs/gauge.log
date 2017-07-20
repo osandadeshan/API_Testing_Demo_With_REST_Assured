@@ -16962,3 +16962,251 @@ Total time taken: 11.234s
 22:53:34.039 Runner connection error: Runner with pid 15180 quit unexpectedly(exit status 1).
 22:53:34.039 Error while killing runner: invalid argument
 22:53:34.039 Failed to start gauge API: Runner with pid 15180 quit unexpectedly(exit status 1).
+16:00:26.214 Checking updates...
+16:00:33.109 # Create Hospital Specification
+16:00:33.110 ## Create Hospital in the system
+16:00:33.113 * Given that the user invokes "Create Hospital"
+16:00:34.911 * When the user invokes the Hospital Create API with valid details "3" and "Hospital2"
+16:00:40.166 * Then the status code for creating hospital request is "200"
+16:00:40.728 
+Failed Step: Then the status code for creating hospital request is "200"
+16:00:40.728 Specification: specs\CreateHospital.spec:14
+16:00:40.728 Error Message: java.lang.AssertionError: 1 expectation failed.
+Expected status code <200> doesn't match actual status code <401>.
+16:00:40.728 Stacktrace: 
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:80)
+org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:74)
+org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:84)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:60)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:235)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:247)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure.validate(ResponseSpecificationImpl.groovy:451)
+io.restassured.internal.ResponseSpecificationImpl$HamcrestAssertionClosure$validate$1.call(Unknown Source)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:125)
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:613)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:210)
+org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:59)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:120)
+io.restassured.specification.ResponseSpecification$statusCode$0.callCurrent(Unknown Source)
+org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallCurrent(CallSiteArray.java:52)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:154)
+org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:166)
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:128)
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)
+BaseClass.verifyStatusCode(BaseClass.java:107)
+POSTMethodWithAuth.verifyResponseStatusCode(POSTMethodWithAuth.java:27)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+java.lang.reflect.Method.invoke(Method.java:498)
+com.thoughtworks.gauge.execution.MethodExecutor.execute(MethodExecutor.java:38)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStepMethod(StepExecutionStage.java:130)
+com.thoughtworks.gauge.execution.StepExecutionStage.executeStep(StepExecutionStage.java:86)
+com.thoughtworks.gauge.execution.StepExecutionStage.execute(StepExecutionStage.java:67)
+com.thoughtworks.gauge.execution.AbstractExecutionStage.executeNext(AbstractExecutionStage.java:24)
+com.thoughtworks.gauge.execution.HookExecutionStage.execute(HookExecutionStage.java:43)
+com.thoughtworks.gauge.execution.ExecutionPipeline.start(ExecutionPipeline.java:29)
+com.thoughtworks.gauge.processor.ExecuteStepProcessor.process(ExecuteStepProcessor.java:39)
+com.thoughtworks.gauge.connection.MessageDispatcher.dispatchMessages(MessageDispatcher.java:89)
+com.thoughtworks.gauge.GaugeRuntime.dispatchMessages(GaugeRuntime.java:104)
+com.thoughtworks.gauge.GaugeRuntime.access$100(GaugeRuntime.java:36)
+com.thoughtworks.gauge.GaugeRuntime$2.run(GaugeRuntime.java:85)
+java.lang.Thread.run(Thread.java:745)
+16:00:40.734 # Get book by ISBN Specification
+16:00:40.734 ## User calls web service to get a book by its ISBN
+16:00:40.741 * Given a book exists with an isbn of "0079132863"
+16:00:40.747 * When a user retrieves the book by isbn of "0079132863"
+16:00:42.066 * Then the status code for retrieving book request is "200"
+16:00:42.070 * And the response for retrieving book request contains the following 
+
+     |Key       |Value        |
+     |----------|-------------|
+     |totalItems|1            |
+     |kind      |books#volumes|
+16:00:42.692 * And the response for retrieving book request contains the following information in any order 
+
+     |Key                          |Value                                          |
+     |-----------------------------|-----------------------------------------------|
+     |items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming|
+     |items.volumeInfo.publisher[0]|Computing McGraw-Hill                          |
+     |items.volumeInfo.pageCount[0]|333                                            |
+16:00:42.717 # Login Specification
+16:00:42.717 ## User login into the system with valid username and valid password
+16:00:42.740 * Given that the user invokes "Login API"
+16:00:42.790 * When the user invokes the login API with a username as "aansar@gmail.com" and a password as "ayesha@123"
+16:00:43.450 * Then the status code for login request is "200"
+16:00:43.452 * And the response for login request contains the following 
+
+     |Key   |Value      |
+     |------|-----------|
+     |status|successfull|
+     |userId|1          |
+16:00:43.463 ## User login into the system with valid username and invalid password
+16:00:43.464 * Given that the user invokes "Login API"
+16:00:43.536 * When the user invokes the login API with a username as "aansar@gmail.com" and a password as "ayesha@12"
+16:00:44.241 * Then the status code for login request is "200"
+16:00:44.242 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:44.244 ## User login into the system with valid username and empty password
+16:00:44.245 * Given that the user invokes "Login API"
+16:00:44.315 * When the user invokes the login API with a username as "aansar@gmail.com" and a password as ""
+16:00:45.300 * Then the status code for login request is "200"
+16:00:45.303 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:45.306 ## User login into the system with valid username and null password
+16:00:45.306 * Given that the user invokes "Login API"
+16:00:45.363 * When the user trying to invoke the login API with valid username as "aansar@gmail.com" and null password
+16:00:46.096 * Then the status code for login request is "200"
+16:00:46.098 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:46.099 ## User login into the system with invalid username and valid password
+16:00:46.100 * Given that the user invokes "Login API"
+16:00:46.143 * When the user invokes the login API with a username as "aansar@gmail.co" and a password as "ayesha@123"
+16:00:46.890 * Then the status code for login request is "200"
+16:00:46.892 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:46.894 ## User login into the system with invalid username and invalid password
+16:00:46.895 * Given that the user invokes "Login API"
+16:00:46.936 * When the user invokes the login API with a username as "aansar@gmail.co" and a password as "ayesha@12"
+16:00:47.421 * Then the status code for login request is "200"
+16:00:47.423 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:47.425 ## User login into the system with invalid username and empty password
+16:00:47.426 * Given that the user invokes "Login API"
+16:00:47.464 * When the user invokes the login API with a username as "aansar@gmail.co" and a password as ""
+16:00:47.959 * Then the status code for login request is "200"
+16:00:47.962 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:47.963 ## User login into the system with invalid username and null password
+16:00:47.964 * Given that the user invokes "Login API"
+16:00:47.996 * When the user trying to invoke the login API with valid username as "aansar@gmail.co" and null password
+16:00:48.439 * Then the status code for login request is "200"
+16:00:48.440 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:48.442 ## User login into the system with empty username and valid password
+16:00:48.443 * Given that the user invokes "Login API"
+16:00:48.473 * When the user invokes the login API with a username as "" and a password as "ayesha@123"
+16:00:48.946 * Then the status code for login request is "200"
+16:00:48.947 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:48.949 ## User login into the system with empty username and invalid password
+16:00:48.949 * Given that the user invokes "Login API"
+16:00:48.979 * When the user invokes the login API with a username as "" and a password as "ayesha@12"
+16:00:49.428 * Then the status code for login request is "200"
+16:00:49.430 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:49.431 ## User login into the system with empty username and empty password
+16:00:49.432 * Given that the user invokes "Login API"
+16:00:49.465 * When the user invokes the login API with a username as "" and a password as ""
+16:00:49.917 * Then the status code for login request is "200"
+16:00:49.919 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:49.921 ## User login into the system with empty username and null password
+16:00:49.922 * Given that the user invokes "Login API"
+16:00:49.948 * When the user trying to invoke the login API with valid username as "" and null password
+16:00:50.529 * Then the status code for login request is "200"
+16:00:50.530 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:50.533 ## User login into the system with null username and valid password
+16:00:50.533 * Given that the user invokes "Login API"
+16:00:50.558 * When the user trying to invoke the login API with null username and a password as "ayesha@123"
+16:00:51.087 * Then the status code for login request is "200"
+16:00:51.089 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:51.091 ## User login into the system with null username and invalid password
+16:00:51.092 * Given that the user invokes "Login API"
+16:00:51.130 * When the user trying to invoke the login API with null username and a password as "ayesha@12"
+16:00:51.592 * Then the status code for login request is "200"
+16:00:51.595 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:51.597 ## User login into the system with null username and empty password
+16:00:51.598 * Given that the user invokes "Login API"
+16:00:51.624 * When the user trying to invoke the login API with null username and a password as ""
+16:00:52.120 * Then the status code for login request is "200"
+16:00:52.122 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:52.123 ## User login into the system with null username and null password
+16:00:52.124 * Given that the user invokes "Login API"
+16:00:52.154 * When the user trying to invoke the login API with null username and null password
+16:00:52.649 * Then the status code for login request is "200"
+16:00:52.650 * And the response for login request contains the following 
+
+     |Key   |Value       |
+     |------|------------|
+     |status|unauthorized|
+     |userId|null        |
+16:00:52.857 Plugin [Html Report] with pid [8404] has exited
+16:00:53.259 Specifications:	3 executed	2 passed	1 failed	0 skipped
+16:00:53.259 Scenarios:	18 executed	17 passed	1 failed	0 skipped
+16:00:53.259 
+Total time taken: 19.681s
+16:00:53.259 Updates are available. Run gauge --check-updates for more info.

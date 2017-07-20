@@ -28,19 +28,19 @@ public class BookStepDefinitions extends BaseClass{
 		getAPI(VOLUMES_API_ENDPOINT, "isbn:", isbn);
 	}
 	
-	@Step("Then the status code for retrieving book is <statusCode>")
+	@Step("Then the status code for retrieving book request is <statusCode>")
 	public void verifyResponseStatusCode(int statusCode){
 		json = verifyStatusCode(statusCode);
 	}
 	
 	// Asserts on JSON fields with single values
-	@Step("And Response contains the following <responseFields>")
+	@Step("And the response for retrieving book request contains the following <responseFields>")
 	public void responseContains(Table responseFields){
 		responseEquals(responseFields);
 	}
 	
 	// Asserts on JSON Arrays
-	@Step("And Response contains the following in any order <table>")
+	@Step("And the response for retrieving book request contains the following information in any order <table>")
 	public void responseContainsInAnyOrder(Table responseFields){
 		responseEquals(responseFields);
 	}

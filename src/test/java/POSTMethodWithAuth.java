@@ -1,6 +1,5 @@
 import com.thoughtworks.gauge.Step;
-import com.thoughtworks.gauge.datastore.DataStore;
-import com.thoughtworks.gauge.datastore.DataStoreFactory;
+import com.thoughtworks.gauge.Table;
 import io.restassured.response.ValidatableResponse;
 import java.io.IOException;
 
@@ -23,10 +22,14 @@ public class POSTMethodWithAuth extends BaseClass{
 		postAPIWithAuth(JsonPayloadForHospitalCreateRequest, headerName, headerValue);
 	}
 	
-	@Step("Then the status code for creating hospital is <statusCode>")
+	@Step("Then the status code for creating hospital request is <statusCode>")
 	public void verifyResponseStatusCode(int statusCode){
 		json = verifyStatusCode(statusCode);
 	}
 	
-	
+	// Asserts on JSON Arrays
+	@Step("And the response for creating hospital request contains the following information in any order <table>")
+	public void responseContainsInAnyOrder(Table responseFields){
+		responseEquals(responseFields);
+	}
 }
