@@ -3,30 +3,504 @@
 Version         : 1.0.0
 Owner           : Osanda Deshan
 Description     : This is an executable specification file which follows markdown syntax. Every heading in this file denotes a scenario. Every bulleted point denotes a step.</p>
-<h2>User login into the system</h2>
+<p>tags: login</p>
+<ul>
+<li>Given that a user invokes &quot;Login API&quot;</li>
+</ul>
+<h2>User login into the system with valid username and valid password</h2>
+<p>tags: login-success</p>
 <ul>
 <li>
-<p>Given that the user invokes &quot;Login API&quot;</p>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.com" rel="nofollow">gmail.com</a>&quot; and a password as &quot;ayesha@123&quot;</p>
 </li>
 <li>
-<p>When the user invokes the login API with valid username as &quot;aansar@<a href="http://gmail.com" rel="nofollow">gmail.com</a>&quot; and valid password as &quot;ayesha@123&quot;</p>
+<p>Then the status code for login request is &quot;200&quot;</p>
 </li>
 <li>
-<p>Then the status code for login with valid credentials is &quot;200&quot;</p>
-</li>
-<li>
-<p>And Response should contains the following
-|Key        |Value        |
-|-----------|-------------|
-|status     |successfull  |
-|userId     |1            |</p>
-</li>
-<li>
-<p>And Response should contains the following in any order
-|Key        |Value        |
-|-----------|-------------|
-|status     |successfull  |
-|userId     |1            |</p>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>successfull</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
 </li>
 </ul>
-<ul id="navigation"><center><li class="nav"><a href=".\CreateHospital.html"><</a></li><li class="nav"><a href="..\index.html">=</a></li></center>
+<h2>User login into the system with valid username and invalid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.com" rel="nofollow">gmail.com</a>&quot; and a password as &quot;ayesha@12&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with valid username and empty password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.com" rel="nofollow">gmail.com</a>&quot; and a password as &quot;&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with valid username and null password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with valid username as &quot;aansar@<a href="http://gmail.com" rel="nofollow">gmail.com</a>&quot; and null password</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with invalid username and valid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.co" rel="nofollow">gmail.co</a>&quot; and a password as &quot;ayesha@123&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with invalid username and invalid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.co" rel="nofollow">gmail.co</a>&quot; and a password as &quot;ayesha@12&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with invalid username and empty password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;aansar@<a href="http://gmail.co" rel="nofollow">gmail.co</a>&quot; and a password as &quot;&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with invalid username and null password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with valid username as &quot;aansar@<a href="http://gmail.co" rel="nofollow">gmail.co</a>&quot; and null password</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with empty username and valid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;&quot; and a password as &quot;ayesha@123&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with empty username and invalid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;&quot; and a password as &quot;ayesha@12&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with empty username and empty password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user invokes the login API with a username as &quot;&quot; and a password as &quot;&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with empty username and null password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with valid username as &quot;&quot; and null password</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with null username and valid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with null username and a password as &quot;ayesha@123&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with null username and invalid password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with null username and a password as &quot;ayesha@12&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with null username and empty password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with null username and a password as &quot;&quot;</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<h2>User login into the system with null username and null password</h2>
+<p>tags: login-fail</p>
+<ul>
+<li>
+<p>When the user trying to invoke the login API with null username and null password</p>
+</li>
+<li>
+<p>Then the status code for login request is &quot;200&quot;</p>
+</li>
+<li>
+<p>And the response for login request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>status</td>
+<td>unauthorized</td>
+</tr>
+<tr>
+<td>userId</td>
+<td>null</td>
+</tr>
+</tbody>
+</table>
+</li>
+</ul>
+<ul id="navigation"><center><li class="nav"><a href=".\DBTest.html"><</a></li><li class="nav"><a href="..\index.html">=</a></li></center>

@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class CommonStepDefinitions extends BaseClass{
 	
-	@Step("Given that the user invokes <apiEndpointName>")
+	@Step("Given that a user invokes <apiEndpointName>")
 	public void invokeApi(String apiEndpointName) throws IOException {
 		super.invokeApi(apiEndpointName);
 	}

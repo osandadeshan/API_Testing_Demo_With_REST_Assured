@@ -2,7 +2,5 @@
 	"Flags": {
 		"-simple-console": "true"
 	},
-	"FailedItems": [
-		"specs\\CreateHospital.spec:10"
-	]
+	"FailedItems": []
 }

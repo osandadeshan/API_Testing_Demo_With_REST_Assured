@@ -1,1 +1,1 @@
-var index = {"Tags":{"login":["specs\\Login.html"],"login-fail":["specs\\Login.html"],"login-success":["specs\\Login.html"]},"Specs":{"Create Hospital Specification":["specs\\CreateHospital.html"],"Get book by ISBN Specification":["specs\\Books.html"],"Login Specification":["specs\\Login.html"]}};
+var index = {"Tags":{"login":["specs\\Login.html"],"login-fail":["specs\\Login.html"],"login-success":["specs\\Login.html"]},"Specs":{"Login Specification":["specs\\Login.html"]}};

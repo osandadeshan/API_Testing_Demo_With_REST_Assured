@@ -12,22 +12,53 @@ Description     : This is an executable specification file which follows markdow
 <p>When a user retrieves the book by isbn of &quot;0079132863&quot;</p>
 </li>
 <li>
-<p>Then the status code for retrieving book is &quot;200&quot;</p>
+<p>Then the status code for retrieving book request is &quot;200&quot;</p>
 </li>
 <li>
-<p>And Response contains the following
-|Key        |Value        |
-|-----------|-------------|
-|totalItems |1            |
-|kind       |books#volumes|</p>
+<p>And the response for retrieving book request contains the following</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>totalItems</td>
+<td>1</td>
+</tr>
+<tr>
+<td>kind</td>
+<td>books#volumes</td>
+</tr>
+</tbody>
+</table>
 </li>
 <li>
-<p>And Response contains the following in any order
-|Key                          |Value                                             |
-|-----------------------------|--------------------------------------------------|
-|items.volumeInfo.title[0]    |The Complete Guide to Java Database Programming   |
-|items.volumeInfo.publisher[0]|Computing McGraw-Hill                             |
-|items.volumeInfo.pageCount[0]|333                                               |</p>
+<p>And the response for retrieving book request contains the following information in any order</p>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>items.volumeInfo.title[0]</td>
+<td>The Complete Guide to Java Database Programming</td>
+</tr>
+<tr>
+<td>items.volumeInfo.publisher[0]</td>
+<td>Computing McGraw-Hill</td>
+</tr>
+<tr>
+<td>items.volumeInfo.pageCount[0]</td>
+<td>333</td>
+</tr>
+</tbody>
+</table>
 </li>
 </ul>
-<ul id="navigation"><center><li class="nav"><a href="..\index.html">=</a></li><li class="nav"><a href=".\CreateHospital.html">></a></li></center>
+<ul id="navigation"><center><li class="nav"><a href="..\index.html">=</a></li><li class="nav"><a href=".\BucketList.html">></a></li></center>

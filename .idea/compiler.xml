@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="API_Testing_Demo_With_REST_Assured" />
+        <module name="Rest_Assured_Demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="API_Testing_Demo_With_REST_Assured" target="1.5" />
+      <module name="Rest_Assured_Demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
