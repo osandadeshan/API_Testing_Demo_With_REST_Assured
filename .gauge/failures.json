@@ -2,5 +2,8 @@
 	"Flags": {
 		"-simple-console": "true"
 	},
-	"FailedItems": []
+	"FailedItems": [
+		"specs\\CreateHospital.spec:10",
+		"specs\\DBTest.spec:9"
+	]
 }

@@ -8,8 +8,7 @@ This is [an example](http://getgauge.io "Title") inline link.
 
 Scenario Heading
 ----------------
-* database validation 
-
+* database validation
      |FirstName|LastName     |
      |---------|-------------|
      |Osanda   |Nimalarathna |

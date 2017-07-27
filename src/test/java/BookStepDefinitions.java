@@ -3,6 +3,9 @@ import com.thoughtworks.gauge.Table;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+
+import java.io.IOException;
+
 import static io.restassured.RestAssured.given;
 
 
@@ -24,7 +27,7 @@ public class BookStepDefinitions extends BaseClass{
 	}
 	
 	@Step("When a user retrieves the book by isbn of <isbn>")
-	public void aUserRetrievesBookWithIsbn(String isbn){
+	public void aUserRetrievesBookWithIsbn(String isbn) throws IOException {
 		getAPI(VOLUMES_API_ENDPOINT, "isbn:", isbn);
 	}
 	

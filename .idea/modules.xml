@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Rest_Assured_Demo.iml" filepath="$PROJECT_DIR$/Rest_Assured_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/API_Testing_Demo_With_REST_Assured.iml" filepath="$PROJECT_DIR$/API_Testing_Demo_With_REST_Assured.iml" />
     </modules>
   </component>
 </project>

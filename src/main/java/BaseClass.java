@@ -26,6 +26,7 @@ public class BaseClass {
     private RequestSpecification request = getRequestSpecification();
     public String SERVER_HOST = System.getenv("server_host");
     private String GOOGLE_BOOKS_HOST = System.getenv("google_books_host");
+    public String AUTHORIZATION_HEADER_NAME = System.getenv("header_name_for_authorization");
     
     public RequestSpecification getRequestSpecification() {
         return RestAssured.given().contentType(ContentType.JSON);
@@ -47,6 +48,17 @@ public class BaseClass {
         Gauge.writeMessage("Request is: " + "\n" + request);
     }
     
+    public void printResponse() {
+        if (response.prettyPrint().toString().equals("")) {
+            System.out.println("Response is empty for the given payload");
+            Gauge.writeMessage("Response is empty for the given payload");
+        }
+        else {
+            System.out.println("Response is: " + "\n" + response.prettyPrint());
+            Gauge.writeMessage("Response is: " + "\n" + response.prettyPrint());
+        }
+    }
+    
     public void postAPI(String jsonPayload) throws IOException {
         String apiName = getValueFromDataStore("API_NAME"); // Fetching Value from the Data Store
         // Executing API and getting the response
@@ -55,8 +67,7 @@ public class BaseClass {
                 .body(jsonPayload)
                 .when()
                 .post(SERVER_HOST.concat(ApiEndpoints.getApiEndpontByName(apiName)));
-        System.out.println("Response is: " + "\n" + response.prettyPrint());
-        Gauge.writeMessage("Response is: " + "\n" + response.prettyPrint());
+        printResponse();
     }
     
     public void postAPI(String apiEndpoint, String jsonPayload) {
@@ -65,8 +76,7 @@ public class BaseClass {
                 .body(jsonPayload)
                 .when()
                 .post(SERVER_HOST.concat(apiEndpoint));
-        System.out.println("Response is: " + "\n" + response.prettyPrint());
-        Gauge.writeMessage("Response is: " + "\n" + response.prettyPrint());
+        printResponse();
     }
     
     public void postAPIWithAuth(String jsonPayload, String headerName, String headerValue) throws IOException {
@@ -78,8 +88,19 @@ public class BaseClass {
                 .body(jsonPayload)
                 .when()
                 .post(ApiEndpoints.getApiEndpontByName(apiName));
-        System.out.println("Response is: " + "\n" + response.print());
-        Gauge.writeMessage("Response is: " + "\n" + response.print());
+        printResponse();
+    }
+    
+    public void postAPIWithAuth(String jsonPayload, String headerValue) throws IOException {
+        String apiName = getValueFromDataStore("API_NAME"); // Fetching Value from the Data Store
+        // Executing API and getting the response
+        response = given()
+                .contentType("application/json")
+                .header(AUTHORIZATION_HEADER_NAME, headerValue) //Some API contains headers to run with the API
+                .body(jsonPayload)
+                .when()
+                .post(ApiEndpoints.getApiEndpontByName(apiName));
+        printResponse();
     }
     
     public void postAPIWithAuth(String apiEndpoint, String jsonPayload, String headerName, String headerValue) throws IOException {
@@ -89,18 +110,46 @@ public class BaseClass {
                 .body(jsonPayload)
                 .when()
                 .post(ApiEndpoints.getApiEndpontByName(apiEndpoint));
-        System.out.println("Response is: " + "\n" + response.print());
-        Gauge.writeMessage("Response is: " + "\n" + response.print());
+        printResponse();
     }
     
-    public void getAPI(String apiEndpoint, String queryParameters, String queryValues) {
+    public void getAPI(String apiEndpoint, String queryParameters, String queryValues) throws IOException {
         response = request
                 .given()
                 .queryParam("q", queryParameters + queryValues)
                 .when()
                 .get(GOOGLE_BOOKS_HOST.concat(apiEndpoint));
-        System.out.println("Response is: " + "\n" + response.prettyPrint());
-        Gauge.writeMessage("Response is: " + "\n" + response.prettyPrint());
+        printResponse();
+    }
+    
+    public void getAPI(String queryParameters, String queryValues) throws IOException {
+        String apiName = getValueFromDataStore("API_NAME"); // Fetching Value from the Data Store
+        response = request
+                .given()
+                .queryParam("q", queryParameters + queryValues)
+                .when()
+                .get(SERVER_HOST.concat(ApiEndpoints.getApiEndpontByName(apiName)));
+        printResponse();
+    }
+    
+    public void getAPIWithAuth(String apiEndpoint, String headerValue, String queryParameters, String queryValues) {
+        response = request
+                .given()
+                .header(AUTHORIZATION_HEADER_NAME, headerValue) //Some API contains headers to run with the API
+                .queryParam("q", queryParameters + queryValues)
+                .when()
+                .get(SERVER_HOST.concat(apiEndpoint));
+        printResponse();
+    }
+    
+    public void getAPIWithAuth(String headerValue) throws IOException {
+        String apiName = getValueFromDataStore("API_NAME"); // Fetching Value from the Data Store
+        response = request
+                .given()
+                .header(AUTHORIZATION_HEADER_NAME, headerValue) //Some API contains headers to run with the API
+                .when()
+                .get(SERVER_HOST.concat(ApiEndpoints.getApiEndpontByName(apiName)));
+        printResponse();
     }
     
     public ValidatableResponse verifyStatusCode(int statusCode) {
@@ -109,14 +158,21 @@ public class BaseClass {
     }
     
     // Asserts on JSON fields with single values
-    public void responseEquals(Table responseFields) {
-        for (TableRow row : responseFields.getTableRows()) {
+    public void responseEquals(Table responseFields){
+        for(TableRow row : responseFields.getTableRows()){
             Gauge.writeMessage(row.getCell("Key" + " | " + row.getCell("Value")));
-            if (StringUtils.isNumeric(row.getCell("Value"))) {
-                json.body(row.getCell("Key"), CoreMatchers.equalTo(Integer.parseInt(row.getCell("Value"))));
+            if(StringUtils.isNumeric(row.getCell("Value"))){
+                if(row.getCell("Value").equals("null")) {
+                    json.body(row.getCell("Value"), CoreMatchers.equalTo(null));
+                } else {
+                    json.body(row.getCell("Key"), CoreMatchers.equalTo(Integer.parseInt(row.getCell("Value"))));
+                }
             } else {
-                if(row.getCell("Value")== null)
-                json.body(row.getCell("Key"), CoreMatchers.equalTo(null));
+                if(row.getCell("Value").equals("null")) {
+                    json.body(row.getCell("Value"), CoreMatchers.equalTo(null));
+                } else {
+                    json.body(row.getCell("Key"), CoreMatchers.equalTo(row.getCell("Value")));
+                }
             }
         }
     }
